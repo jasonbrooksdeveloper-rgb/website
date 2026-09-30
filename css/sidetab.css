@@ -1,0 +1,16 @@
+.floating-icon{
+    position:fixed;
+    top:100px;
+    right:0px;
+    z-index: 9999999;
+}
+.float-squear{
+    background-color:#000;
+    color:#b09c78;
+    width:40px;
+    height:40px;
+    padding:8px 13px;
+    margin-top:8px;
+    font-size: 22px;
+    line-height: 24px;
+}

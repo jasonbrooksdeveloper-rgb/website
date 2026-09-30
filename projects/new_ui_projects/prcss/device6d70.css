@@ -1,0 +1,5040 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+button,
+a {
+    font-family: 'Abel', sans-serif !important;
+}
+
+.page-404 div.page-content h2 {
+    font-size: 24px;
+    font-family: proximanovaregular;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    position: relative;
+    margin-bottom: 70px
+}
+
+.page-404 div.page-content h2:after {
+    content: "";
+    width: 50px;
+    height: 1px;
+    background: #d4b453;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translatex(-50%)
+}
+
+.page-404 div.page-content ul.listing {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0
+}
+
+.page-404 div.page-content ul.listing li {
+    width: auto;
+    display: inline-block;
+    margin: 0 15px 15px 0;
+    padding: 0
+}
+
+.page-404 div.page-content ul.listing li a {
+    color: #fff;
+    min-width: 186px
+}
+
+.page-404 div.page-content ul.listing li a:hover {
+    color: #000
+}
+
+.page-404 div.page-content p {
+    padding-bottom: 100px;
+    font-family: proximanovaregular;
+    text-transform: uppercase
+}
+
+section.page-404 {
+    background-color: #000
+}
+
+@media screen and (max-width:1700px) {
+
+    .ae a.logo,
+    .cn a.logo {
+        left: 41.5%
+    }
+
+    .amenities .readmore.register {
+        left: 10%
+    }
+
+    ul.gallery-list .slick-arrow.slick-next {
+        right: auto;
+        left: 210px
+    }
+
+    ul.gallery-list .slick-arrow.slick-prev {
+        left: 150px
+    }
+
+    .our-projects .heading {
+        left: 10%
+    }
+
+    .ae .our-projects .heading {
+        left: 8%
+    }
+
+    .our-projects ul.project-list-year {
+        left: 24%;
+        bottom: 190px
+    }
+
+    ul.project-list .slick-arrow.slick-prev {
+        left: -29%
+    }
+
+    ul.project-list .slick-arrow.slick-next {
+        left: -24%
+    }
+
+    ul.awards-list .slick-dots li button {
+        width: 70px
+    }
+
+    div.founder div.info {
+        padding: 12% 10% 12% 45%
+    }
+}
+
+@media screen and (max-width:1599px) {
+    .menu-list li {
+        margin: 0 12px
+    }
+
+    .menu-list li.left {
+        margin-right: 80px
+    }
+
+    .menu-list li.right {
+        margin-left: 80px
+    }
+
+    .menu-list li a {
+        font-size: 13px
+    }
+
+    div.header a.enquire-now,
+    div.header a.webinar-scroll {
+        right: 188px;
+        font-size: 12px
+    }
+
+    div.header a.callTo {
+        font-size: 12px
+    }
+
+    ae a.logo,
+    .cn a.logo {
+        left: 41.5%
+    }
+
+    section.community ul.community-list li div.img-box img {
+        width: 70px
+    }
+
+    section.community ul.community-list li div.data {
+        font-size: 14px
+    }
+
+    section.view-360 div.content h4 {
+        font-size: 37px;
+        line-height: 45px
+    }
+
+    div.header a.callTo {
+        font-size: 12px
+    }
+
+    div.header a.callnow {
+        right: 40px;
+        font-size: 12px;
+        background-size: 15px
+    }
+
+    section.about-sobha {
+        background-size: 85%;
+        background-position: 0 0
+    }
+
+    section.about-sobha li div.sub-data span {
+        font-size: 15px
+    }
+
+    .leadership-wraper .intro {
+        padding: 80px 0
+    }
+
+    section.leadership li h4 {
+        font-size: 22px
+    }
+
+    div.founder div.info {
+        width: 85%;
+        padding: 8% 8% 8% 35%
+    }
+}
+
+@media screen and (max-width:1439px) {
+
+    ul.gird-list li div.data .heading .title,
+    .grid.inside ul.gird-list li div.data .heading .title {
+        font-size: 18px
+    }
+
+    .heading span {
+        font-size: 15px;
+        line-height: 24px
+    }
+
+    ul.gird-list li div.data p,
+    ul.gird-list li div.data blockquote p {
+        font-size: 13px;
+        line-height: 19px
+    }
+
+    .readmore {
+        font-size: 12px
+    }
+
+    .readmore:hover:after {
+        width: 90px
+    }
+
+    div.wrapper {
+        max-width: 1200px
+    }
+
+    .intro p {
+        font-size: 18px;
+        line-height: 32px
+    }
+
+    .banner .header-arrow {
+        bottom: 70px
+    }
+
+    section.register.ftr {
+        padding: 60px 80px
+    }
+
+    div.reg-box {
+        padding: 0 20px 30px
+    }
+
+    div.left {
+        max-width: 1200px;
+        margin-left: -600px
+    }
+
+    section.gallery ul.gallery-list li div.data-box {
+        max-width: 1200px;
+        margin-left: -600px
+    }
+
+    ul.gallery-list .slick-arrow.slick-next {
+        left: 130px
+    }
+
+    ul.gallery-list .slick-arrow.slick-prev {
+        left: 75px
+    }
+
+    .amenities .readmore.register {
+        left: 6%;
+        bottom: 30px
+    }
+
+    ul.video-list li div.data {
+        max-width: 300px
+    }
+
+    ul.video-list li div.data h3 {
+        font-size: 20px;
+        line-height: 32px
+    }
+
+    ul.video-list li div.data a {
+        width: 60px
+    }
+
+    .legacy-years .legacy-list li div.data h2 {
+        font-size: 75px;
+        line-height: 55px
+    }
+
+    .our-projects .heading {
+        left: 6%
+    }
+
+    .our-projects ul.project-list-year {
+        left: 23%
+    }
+
+    .our-projects ul.project-list-year li div.year h2 {
+        font-size: 75px;
+        line-height: 55px
+    }
+
+    .our-projects ul.project-list li div.item {
+        padding: 0 10px
+    }
+
+    ul.project-list .slick-arrow.slick-prev {
+        left: -34%
+    }
+
+    ul.project-list .slick-arrow.slick-next {
+        left: -28%
+    }
+
+    .awards .awards-slider {
+        padding: 0 0 0 10%
+    }
+
+    .awards ul.awards-list {
+        padding: 50px 0 120px 0
+    }
+
+    ul.awards-list .slick-arrow.slick-prev {
+        left: 30%
+    }
+
+    ul.awards-list .slick-arrow.slick-next {
+        right: 30%
+    }
+
+    .page-404 div.page-content h1 {
+        font-size: 42px;
+        line-height: 50px
+    }
+
+    .page-404 div.page-content p {
+        font-size: 18px;
+        line-height: 24px;
+        padding-bottom: 70px
+    }
+
+    .page-404 div.page-content h2 {
+        font-size: 18px;
+        line-height: 24px
+    }
+
+    .thank-you div.inside-content h1 {
+        font-size: 42px;
+        line-height: 50px
+    }
+
+    .thank-you div.inside-content p {
+        font-size: 18px;
+        line-height: 24px
+    }
+
+    .thank-you div.inside-content img {
+        width: 75px;
+        padding: 50px 0
+    }
+
+    section.thank-you {
+        background-size: 72%
+    }
+
+    div.ad-wrap {
+        padding: 60px 0 0
+    }
+
+    ul.form-list li .lbl {
+        font-size: 14px
+    }
+
+    ul.form-list li .lbl .checkmark {
+        top: -2px
+    }
+
+    ul.thumbnails .slick-arrow.slick-prev {
+        left: 7%
+    }
+
+    ul.thumbnails .slick-arrow.slick-next {
+        left: 11%
+    }
+
+    .gallery-wrap {
+        padding: 0 15%
+    }
+
+    .gallery-wrap ul {
+        margin: 0 0 15px
+    }
+
+    .gallery-wrap ul li div.imgbox {
+        padding: 0 6px
+    }
+
+    .gallery-wrap .gallery-banner iframe {
+        height: 410px
+    }
+
+    .ae div.overlay div.v-align h3 {
+        font-size: 22px
+    }
+
+    div.ftr-menus div.col h4 {
+        font-size: 14px;
+        line-height: 20px
+    }
+
+    div.select-box,
+    div.select-box select,
+    ul.form-list li input.text {
+        height: 40px
+    }
+
+    div.select-box:after {
+        line-height: 40px;
+        height: 40px;
+        right: 0
+    }
+
+    .tower-wrap div.form-wrap ul.form-list {
+        padding: 0 15px
+    }
+
+    .tower-wrap .form-wrap h2 {
+        font-size: 22px;
+        line-height: 26px
+    }
+
+    .tower-wrap ul.form-list li input.button {
+        width: 180px;
+        height: 40px;
+        line-height: 40px
+    }
+
+    ul.form-list li input.text,
+    div.select-box {
+        border-radius: 5px;
+        -webkit-border-radius: 5px
+    }
+
+    .container.tower-lp .form-wrap.s-tower-enq-form ul.form-list li {
+        height: 60px
+    }
+
+    div.header .header-button a {
+        font-size: 12px
+    }
+
+    div.header .header-button {
+        right: 10px
+    }
+
+    div.header .header-button .divider {
+        margin: 0 20px
+    }
+}
+
+@media screen and (max-width:1320px) {
+    div.wrapper {
+        max-width: 1170px
+    }
+
+    ul.gird-list li div.data {
+        padding: 20px 30px 20px 40px
+    }
+
+    ul.footer-list li {
+        padding: 0 40px
+    }
+
+    div.left {
+        max-width: 1170px;
+        margin-left: -585px
+    }
+
+    section.gallery ul.gallery-list li div.data-box {
+        max-width: 1170px;
+        margin-left: -585px
+    }
+
+    ul.gallery-list .slick-arrow.slick-next {
+        left: 115px
+    }
+
+    ul.gallery-list .slick-arrow.slick-prev {
+        left: 60px
+    }
+
+    .amenities .readmore.register {
+        left: 4%
+    }
+
+    section.thank-you {
+        background-size: 63%
+    }
+
+    .menu-list li {
+        margin: 0 5px
+    }
+
+    ul.thumbnails .slick-arrow.slick-prev {
+        left: 4%
+    }
+
+    ul.thumbnails .slick-arrow.slick-next {
+        left: 8%
+    }
+
+    div.header a.enquire-now,
+    div.header a.webinar-scroll {
+        right: 145px
+    }
+
+    .form-list .styledSelect {
+        font-size: 15px
+    }
+}
+
+@media screen and (max-width:1200px) {
+    a.logo {
+        left: 44.6%;
+        width: 80px
+    }
+
+    .ru a.logo {
+        left: 43.8%
+    }
+
+    .ru .menu-wrap {
+        padding: 0
+    }
+
+    div.wrapper {
+        max-width: 860px
+    }
+
+    .menu-wrap {
+        margin: 0 !important;
+    }
+
+    div.header.fixed .menu-wrap {
+        margin: 0 0 0 -40px
+    }
+
+    .menu-list {
+        padding: 0 50px 0 0
+    }
+
+    .menu-list li {
+        min-width: 1px;
+        margin: 0 10px
+    }
+
+    .menu-list li.left:before {
+        left: -25px
+    }
+
+    .menu-list li.right:before {
+        right: -25px
+    }
+
+    .ae a.logo,
+    .cn a.logo {
+        left: 39.5%
+    }
+
+    div.left {
+        max-width: 860px;
+        margin-left: -430px
+    }
+
+    div.left .heading {
+        max-width: 400px
+    }
+
+    section.gallery ul.gallery-list li div.data-box {
+        max-width: 860px;
+        margin-left: -430px
+    }
+
+    ul.gallery-list .slick-arrow.slick-next {
+        left: 135px
+    }
+
+    ul.gallery-list .slick-arrow.slick-prev {
+        left: 80px
+    }
+
+    .amenities .readmore.register {
+        left: 8%
+    }
+
+    .legacy-years .legacy-list li div.data {
+        padding: 0 20px 0 40px
+    }
+
+    .legacy-years .legacy-list li div.data h2,
+    .legacy div.data h2 {
+        font-size: 50px;
+        line-height: 45px;
+        margin-left: -20px
+    }
+
+    .legacy div.data h2 {
+        margin-bottom: 5px
+    }
+
+    .legacy-years .legacy-list li div.data h4,
+    .legacy div.data h4 {
+        font-size: 20px;
+        line-height: 26px
+    }
+
+    .legacy-years .legacy-list li div.data p,
+    .legacy div.data p {
+        font-size: 13px;
+        line-height: 22px
+    }
+
+    .our-projects .heading {
+        max-width: 260px;
+        top: 70px
+    }
+
+    .our-projects ul.project-list-year {
+        left: 22%;
+        bottom: 245px
+    }
+
+    .our-projects ul.project-list-year li div.year h2 {
+        font-size: 55px;
+        line-height: 45px
+    }
+
+    .our-projects ul.project-list li div.data h4 {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .our-projects ul.project-list li div.data p {
+        font-size: 13px;
+        line-height: 18px
+    }
+
+    ul.project-list .slick-arrow.slick-next {
+        left: -26%
+    }
+
+    .awards .awards-slider {
+        padding: 0 40px
+    }
+
+    .awards ul.awards-list li div.data h4 {
+        font-size: 20px;
+        line-height: 30px
+    }
+
+    ul.awards-list .slick-arrow.slick-prev {
+        left: 26%
+    }
+
+    ul.awards-list .slick-arrow.slick-next {
+        right: 26%
+    }
+
+    .sobha-world ul.sobha-list li {
+        padding: 40px;
+        margin: 0 0 85px
+    }
+
+    .sobha-world ul.sobha-list li div.imgbox {
+        margin: -85px 0 0
+    }
+
+    .sobha-world ul.sobha-list li div.data h2,
+    .craftsmen ul.sobha-list li div.data h2 {
+        font-size: 24px;
+        line-height: 30px
+    }
+
+    .sobha-world ul.sobha-list li div.data p,
+    .sobha-world ul.sobha-list li div.data p,
+    .craftsmen ul.sobha-list li div.data p {
+        font-size: 13px;
+        line-height: 24px
+    }
+
+    ul.mega-list li.main-menu {
+        padding-left: 20px
+    }
+
+    div.connectus ul li div.data {
+        width: 90%
+    }
+
+    .contactus ul.form-list li.full {
+        width: 100%;
+        height: 75px
+    }
+
+    .contactus ul.form-list li.full.center {
+        text-align: left;
+        padding-left: 20px
+    }
+
+    ul.form-list li.col-4 {
+        width: 50%
+    }
+
+    div.header a.enquire-now,
+    div.header a.webinar-scroll {
+        right: 135px;
+        letter-spacing: 0
+    }
+
+    ul.thumbnails .slick-arrow.slick-prev {
+        left: 9%
+    }
+
+    ul.thumbnails .slick-arrow.slick-next {
+        left: 13%
+    }
+
+    .video-slider {
+        height: 60vh
+    }
+
+    div.footer div.wrapper {
+        max-width: 950px
+    }
+
+    div.ftr-menus div.col h4 {
+        font-size: 11px;
+        line-height: 16px
+    }
+
+    div.ftr-menus ul a {
+        font-size: 10px;
+        line-height: 13px
+    }
+
+    div.career-form {
+        padding-left: 20px
+    }
+
+    div.career-form .btn {
+        min-width: 160px;
+        padding: 0 0 0 40px;
+        font-size: 10px;
+        background-position: 10px 13px
+    }
+
+    div.send-cta .button {
+        min-width: 160px;
+        font-size: 12px
+    }
+
+    div.founder div.info {
+        width: 90%;
+        padding: 13% 10% 13% 35%
+    }
+
+    ul.bod-list li {
+        width: 50%
+    }
+
+    .media-center .tab-items .data h3 {
+        font-size: 20px
+    }
+
+    .media-center .media-info p {
+        font-size: 15px;
+        line-height: 15px
+    }
+
+    .media-center ul.tab-list li a {
+        font-size: 14px;
+        padding: 12px 28px
+    }
+
+    div.page .privacy-cta a {
+        font-size: 12px;
+        letter-spacing: 1px;
+        margin-left: 12px
+    }
+
+    .tower-data {
+        width: 100%;
+        padding: 40px
+    }
+}
+
+@media screen and (max-width:1024px) {
+    div.founder div.info {
+        padding: 11% 5% 11% 35%
+    }
+
+    .ru div.header a.callTo {
+        right: 36px
+    }
+}
+
+@media screen and (max-width:1023px) {
+
+    div.header,
+    div.header.fixed {
+        height: 60px;
+        background: rgba(0, 0, 0, .7);
+        padding: 0 !important;
+    }
+
+    div.header.active {
+        background: #000;
+    }
+
+    div.header.uk-landing-page {
+        height: 60px
+    }
+
+    .menu-list li {
+        display: flow-root;
+    }
+
+    a.logo,
+    .ru a.logo {
+        top: 32px;
+        left: 50%;
+        width: 80px;
+        margin-left: 0
+    }
+
+    .ae div.header.fixed a.logo img.after {
+        margin-top: -32px
+    }
+
+    #nav-icon {
+        display: block;
+        /*right: 15px;*/
+        /*position: absolute;*/
+        /*top: 12px*/
+    }
+
+    div.header a.enquire-now,
+    div.header a.webinar-scroll {
+        max-width: 200px;
+        right: 20px;
+        font-size: 10px;
+        max-width: 106px
+    }
+
+    div.header div.select-field {
+        left: 60px;
+        width: 100px
+    }
+
+    div.header div.select-field ul {
+        min-width: 65px
+    }
+
+    div.header div.select-field ul li a,
+    div.header div.select-field .active-lng {
+        font-size: 12px;
+        color: #d4b453
+    }
+
+    div.header div.select-field ul li a {
+        padding: 3px 8px
+    }
+
+    div.header div.select-field:before {
+        color: #d4b453;
+        width: 13px;
+        height: 13px;
+        line-height: 16px;
+        font-size: 17px
+    }
+
+    .desk-only {
+        display: none !important
+    }
+
+    .mob-only {
+        display: block !important
+    }
+
+    .mob-menu {
+        display: block
+    }
+
+    .desk-menu {
+        display: none
+    }
+
+    div.wrapper {
+        padding: 0 60px
+    }
+
+    .title,
+    ul.gird-list li div.data .heading .title {
+        font-size: 24px;
+        margin-bottom: 15px
+    }
+
+    .heading span {
+        font-size: 18px
+    }
+
+    div.breadcrumbs {
+        padding: 60px 3px 10px 20px
+    }
+
+    div.breadcrumbs div.wrapper {
+        padding: 0 0 0 6px
+    }
+
+    div.breadcrumbs ul li a {
+        font-size: 12px
+    }
+
+    .story-cntnt {
+        display: inline-block
+    }
+
+    .content-box {
+        padding: 30px 0;
+        text-align: left
+    }
+
+    .story div.cell {
+        display: inline-block;
+        width: 100%;
+        padding: 0
+    }
+
+    .story div.cell .heading {
+        margin-bottom: 30px
+    }
+
+    .grid.inside {
+        padding: 0
+    }
+
+    ul.gird-list li {
+        display: inline-block;
+        width: 100%
+    }
+
+    ul.gird-list li div.imgbox,
+    ul.gird-list li div.data,
+    ul.gird-list li.one-third div.imgbox,
+    ul.gird-list li.one-third div.data {
+        width: 100%
+    }
+
+    ul.gird-list li div.video a.play-btn {
+        width: 65px;
+        height: 65px
+    }
+
+    .story div.cell p,
+    ul.gird-list li div.data p,
+    ul.gird-list li div.data p,
+    ul.gird-list li div.data blockquote p {
+        font-size: 16px;
+        line-height: 26px
+    }
+
+    ul.gird-list li div.data {
+        padding: 60px
+    }
+
+    ul.thumbnails {
+        padding: 0 0 60px 60px;
+        margin-top: 30px
+    }
+
+    ul.thumbnails .slick-arrow {
+        margin: 0;
+        top: auto;
+        bottom: 0
+    }
+
+    ul.thumbnails .slick-arrow.slick-next {
+        left: 53%
+    }
+
+    ul.thumbnails .slick-arrow.slick-prev {
+        left: 47%
+    }
+
+    .getinspired {
+        padding: 40px 0
+    }
+
+    div.footer div.wrapper {
+        max-width: 100%;
+        padding: 0 10px
+    }
+
+    div.footer-wrap {
+        padding: 40px 0 30px
+    }
+
+    ul.footer-list li {
+        padding: 0 20px
+    }
+
+    div.ftr-menus {
+        padding-left: 25px;
+        margin-bottom: 20px;
+        justify-content: space-between
+    }
+
+    div.ftr-menus div.col {
+        width: 33.3333%;
+        margin-bottom: 10px
+    }
+
+    ul.footer-list {
+        padding: 0 0 30px
+    }
+
+    div.ftr-btm {
+        display: inline-block
+    }
+
+    div.ftr-btm p.rights {
+        margin: 10px 0
+    }
+
+    .ae a.logo,
+    .cn a.logo {
+        left: 50%
+    }
+
+    .menu-wrap {
+        background-color: #000;
+        position: fixed;
+        top: 60px;
+        left: -100%;
+        z-index: 1;
+        padding: 0;
+        height: calc(100% - 60px);
+        overflow: auto;
+        margin: 11px 0 0
+    }
+
+    div.header.uk-landing-page .menu-list {
+        padding: 0 0 10px 0;
+        text-align: left
+    }
+
+    div.header.uk-landing-page .menu-list>li {
+        padding: 40px 0;
+        border-bottom: 1px solid #343434;
+        width: 100%;
+        margin: 0;
+        text-align: left
+    }
+
+    .menu-wrap.active {
+        left: 0;
+        margin-top: 0
+    }
+
+    div.header.fixed .menu-wrap {
+        margin: 0
+    }
+
+    div.header.uk-landing-page .logo {
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        margin-top: 15px
+    }
+
+    div.header.uk-landing-page .menu-wrap {
+        padding: 40px 100px 0
+    }
+
+    div.header.uk-landing-page #nav-icon {
+        left: auto;
+        right: 15px
+    }
+
+    div.header.uk-landing-page #nav-icon span {
+        background: #dbb65e;
+        background: linear-gradient(90deg, rgba(219, 182, 94, 1) 0%, rgba(252, 231, 144, 1) 22%, rgba(216, 175, 70, 1) 64%, rgba(252, 231, 144, 1) 100%)
+    }
+
+    .menu-list {
+        padding: 0 0 10px 0;
+        text-align: left
+    }
+
+    .menu-list li,
+    div.header.fixed .menu-list li {
+        height: auto
+    }
+
+    .menu-list>li {
+        padding: 40px 0;
+        border-bottom: 1px solid #343434;
+        width: 100%;
+        margin: 0
+    }
+
+    .menu-list>li:last-child {
+        border: none
+    }
+
+    .menu-list li::before {
+        content: none
+    }
+
+    .menu-list li.left,
+    .menu-list li.right {
+        padding: 40px 0;
+        margin: 0
+    }
+
+    .menu-list li a,
+    div.header.uk-landing-page .menu-list li a {
+        color: #c1c1c1;
+        font-size: 16px;
+        letter-spacing: 2px;
+        padding: 0 20px;
+        line-height: 24px;
+        font-family: proximanovasemibold;
+        margin: 0
+    }
+
+    .menu-list li.active a {
+        color: #e5bc71
+    }
+
+    .ru .menu-wrap {
+        padding: 40px 100px 0
+    }
+
+    div.mega-menu {
+        display: none;
+        background-color: #000;
+        padding: 0;
+        position: relative;
+        top: auto
+    }
+
+    div.mega-menu div.wrapper {
+        padding: 0
+    }
+
+    ul.mega-list {
+        padding: 25px 0 0 25px
+    }
+
+    ul.mega-list li.main-menu,
+    .project ul.mega-list li.main-menu {
+        width: 100%;
+        padding: 0;
+        margin: 0
+    }
+
+    ul.mega-list li.main-menu:first-child h2 {
+        padding-left: 0
+    }
+
+    ul.mega-list li.main-menu:first-child h2:before {
+        content: none
+    }
+
+    ul.mega-list li.main-menu ul li a {
+        line-height: normal;
+        letter-spacing: 1px
+    }
+
+    ul.mega-list li.main-menu .img-box,
+    ul.mega-list li.main-menu h2 {
+        padding: 20px 0 20px 45px;
+        margin: 0;
+        min-height: 1px;
+        border: none;
+        position: relative
+    }
+
+    ul.mega-list li.main-menu h2:before {
+        content: "";
+        height: 1px;
+        width: 30px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        background: #d4b453;
+        opacity: 1
+    }
+
+    ul.mega-list li.main-menu ul li:hover a::after,
+    ul.mega-list li.main-menu ul li a.active::after {
+        content: none
+    }
+
+    ul.mega-list li.main-menu ul li,
+    ul.mega-list li.main-menu ul li:last-child {
+        padding: 10px 0
+    }
+
+    div.follow-us {
+        width: 100%;
+        float: left;
+        margin: 0;
+        padding: 50px 0;
+        border-top: 1px solid #e5bc71
+    }
+
+    div.follow-us h2 {
+        font-size: 20px;
+        color: #e5bc71;
+        text-transform: uppercase;
+        font-family: proximanovasemibold;
+        text-align: left;
+        float: left;
+        display: inline-block;
+        font-weight: 400;
+        letter-spacing: 2px
+    }
+
+    ul.follow-us-list {
+        width: auto;
+        float: right;
+        list-style: none;
+        display: inline-block;
+        margin: 0;
+        padding: 0
+    }
+
+    ul.follow-us-list li {
+        float: left;
+        margin-left: 40px
+    }
+
+    ul.follow-us-list li a {
+        color: #e5bc71;
+        font-size: 28px
+    }
+
+    ul.follow-us-list li a:hover {
+        color: #fff
+    }
+
+    #nav-icon.open::after {
+        /*border: 2px solid #e5bc71;
+        position: absolute;
+        height: 35px;
+        width: 35px;
+        content: "";
+        border-radius: 100%;
+        top: -42%;
+        left: -10%*/
+    }
+
+    div.ad-wrap {
+        display: none
+    }
+
+    .menu-list li.left>.dd-arrow,
+    .menu-list li.wos>.dd-arrow {
+        top: 37px
+    }
+
+    .dd-arrow {
+        position: absolute;
+        /*right: 20px;*/
+        left: 100px;
+        /*top: 15px;*/
+        height: 30px;
+        width: 30px
+    }
+
+    .dd-arrow:after {
+        content: "\f078";
+        cursor: pointer;
+        font-family: fontawesome;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        font-size: 14px;
+        color: #999
+    }
+
+    .dd-arrow.active:after {
+        color: #e5bc71
+    }
+
+    ul.community-list .slick-arrow:hover,
+    .slick-arrow:hover {
+        border: 1px solid #e5bc71
+    }
+
+    .slick-arrow:hover.slick-prev:before,
+    .slick-arrow:hover.slick-next:before {
+        color: #e5bc71
+    }
+
+    div.content {
+        max-width: 95%;
+        top: auto;
+        bottom: 30px;
+        transform: none;
+        padding: 20px 30px
+    }
+
+    .slide div.content {
+        max-width: 90%;
+        left: 5%;
+        bottom: 25%;
+        margin: 0;
+        text-align: center;
+        padding: 0
+    }
+
+    .slide div.content .button {
+        line-height: 32px
+    }
+
+    div.arrow-nav {
+        display: none
+    }
+
+    .content-box .heading,
+    .content-box div.info,
+    .grid.inside .heading {
+        max-width: 100%
+    }
+
+    .ae .content-box .heading {
+        margin-bottom: 25px
+    }
+
+    .content-box div.info h3 {
+        width: auto;
+        padding: 0 10px;
+        font-size: 12px;
+        line-height: 12px;
+        border-right: 1px solid #e5bc71
+    }
+
+    .content-box div.info h3:first-child {
+        padding-left: 0
+    }
+
+    .content-box div.info h3:last-child {
+        border: 0;
+        padding-right: 0
+    }
+
+    .content-box div.cell p {
+        padding: 20px 0 0
+    }
+
+    .content-box div.cell {
+        float: left;
+        width: 100%
+    }
+
+    div.amenities-wrap {
+        margin: 0 0 40px
+    }
+
+    div.right {
+        width: 100%;
+        margin-top: 25px
+    }
+
+    div.left,
+    .ae div.amenities-wrap div.left {
+        width: 100%;
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        margin-left: 0;
+        padding: 30px 60px 12%
+    }
+
+    .ae div.amenities-wrap div.left ul {
+        width: 100%
+    }
+
+    div.left .heading {
+        max-width: 100%
+    }
+
+    div.left .heading h2 {
+        font-size: 18px
+    }
+
+    div.left div.data {
+        padding: 0 0 60px
+    }
+
+    .amenities .readmore.register {
+        bottom: 0;
+        left: 7%
+    }
+
+    div.video-wrap,
+    div.plan-wrap {
+        width: 100%
+    }
+
+    .plans {
+        margin-bottom: 40px
+    }
+
+    div.plan-wrap {
+        padding: 0 60px 40px
+    }
+
+    ul.plan-list {
+        padding: 0 0 55px
+    }
+
+    ul.plan-list .slick-arrow.slick-prev {
+        left: 0;
+        right: auto
+    }
+
+    ul.plan-list .slick-arrow.slick-next {
+        left: auto;
+        right: 0
+    }
+
+    ul.video-list li {
+        margin-bottom: 15px
+    }
+
+    div.cta {
+        text-align: center
+    }
+
+    div.cta:after {
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%
+    }
+
+    div.map {
+        padding: 30px 0
+    }
+
+    div.location-wrap ul {
+        padding: 0 0 35px
+    }
+
+    ul.location-list .slick-arrow {
+        width: 35px;
+        height: 35px;
+        top: -70px;
+        transform: none;
+
+    }
+
+    ul.location-list .slick-arrow.slick-prev {
+        left: auto;
+        right: 40px;
+    }
+
+    ul.location-list .slick-arrow.slick-next {
+        right: 0;
+        left: auto;
+    }
+
+    ul.location-list .slick-arrow.slick-next:before,
+    ul.location-list .slick-arrow.slick-prev:before {
+        line-height: 30px
+    }
+
+    .gallery .heading {
+        padding-bottom: 25px
+    }
+
+    section.gallery ul.gallery-list {
+        padding-bottom: 55px
+    }
+
+    section.gallery ul.gallery-list li div.data-box {
+        position: relative;
+        bottom: auto;
+        top: auto;
+        left: auto;
+        margin-left: 0;
+        padding: 0 60px
+    }
+
+    ul.gallery-list .slick-arrow {
+        width: 35px;
+        height: 35px;
+        bottom: 0
+    }
+
+    ul.gallery-list .slick-arrow.slick-next {
+        right: auto;
+        left: 110px
+    }
+
+    ul.gallery-list .slick-arrow.slick-prev {
+        left: 60px
+    }
+
+    ul.gallery-list .slick-arrow.slick-next:before,
+    ul.gallery-list .slick-arrow.slick-prev:before {
+        font-size: 20px;
+        line-height: 29px
+    }
+
+    section.residences {
+        padding: 30px 0
+    }
+
+    section.residences ul.residences-list {
+        width: 100%;
+        padding: 30px 0 0
+    }
+
+    section.residences ul.residences-list li,
+    section.residences ul.residences-list li.one-third {
+        width: 100%;
+        margin: 0
+    }
+
+    section.residences ul.residences-list li:last-child div.data {
+        padding-bottom: 0
+    }
+
+    section.residences ul.residences-list li div.content {
+        padding: 0;
+        max-width: 100%
+    }
+
+    section.community ul.community-list li div.img-box img {
+        margin: 0 auto
+    }
+
+    section.community ul.community-list li div.img-box {
+        padding: 0 0 25px
+    }
+
+    section.view-360 div.content h4 {
+        font-size: 30px;
+        line-height: 35px
+    }
+
+    a.play-button img {
+        width: 50px
+    }
+
+    .intro p {
+        font-size: 16px;
+        line-height: 26px
+    }
+
+    .legacy {
+        background: 0 0;
+        padding: 25px 0 0
+    }
+
+    .legacy div.wrapper,
+    .legacy-years div.wrapper {
+        max-width: 100%;
+        padding: 0
+    }
+
+    .legacy-years {
+        padding-top: 0
+    }
+
+    .legacy-years .legacy-list li {
+        margin: 0 0 20px
+    }
+
+    .legacy div.imgbox,
+    .legacy-years .legacy-list li div.imgbox {
+        width: 100%
+    }
+
+    .legacy div.data,
+    .legacy-years .legacy-list li div.data,
+    .legacy-years .legacy-list li.odd div.data {
+        width: 100%;
+        padding: 30px 60px
+    }
+
+    .legacy-years .legacy-list li div.data h4,
+    .legacy div.data h4 {
+        font-size: 18px;
+        line-height: 22px
+    }
+
+    .legacy-years .legacy-list li div.data h4:after {
+        display: block
+    }
+
+    .legacy div.data {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        padding: 40px
+    }
+
+    .legacy .title,
+    .leadership-wraper .intro .title {
+        padding: 0 0 0 0;
+        text-align: center;
+        margin-bottom: 10px
+    }
+
+    .legacy div.data blockquote:before,
+    .legacy div.data blockquote:after,
+    .leadership-wraper .intro h4:before,
+    .leadership-wraper .intro h4:after {
+        width: 35px;
+        height: 35px
+    }
+
+    .our-projects .heading {
+        top: 0;
+        left: 60px;
+        margin-bottom: 40px
+    }
+
+    .our-projects ul.project-list-year {
+        left: -50px;
+        bottom: 305px
+    }
+
+    .our-projects ul.project-list {
+        width: 95%;
+        padding-bottom: 70px;
+        margin-bottom: 70px
+    }
+
+    ul.project-list .slick-arrow,
+    ul.awards-list .slick-arrow {
+        top: auto;
+        bottom: 0;
+        width: 35px;
+        height: 35px
+    }
+
+    ul.project-list .slick-arrow.slick-prev {
+        left: 42%
+    }
+
+    ul.project-list .slick-arrow.slick-next {
+        left: 49%
+    }
+
+    ul.project-list .slick-arrow.slick-next:before,
+    ul.project-list .slick-arrow.slick-prev:before,
+    ul.awards-list .slick-arrow.slick-next:before,
+    ul.awards-list .slick-arrow.slick-prev:before {
+        line-height: 29px
+    }
+
+    .awards .awards-slider {
+        padding: 0 60px
+    }
+
+    .awards ul.awards-list {
+        margin: 0;
+        padding: 50px 0 100px 0
+    }
+
+    .awards ul.awards-list li,
+    .awards ul.awards-list li.slick-current {
+        transform: none;
+        opacity: 1
+    }
+
+    .awards ul.awards-list li div.data h4 {
+        font-size: 17px;
+        line-height: 24px
+    }
+
+    ul.awards-list .slick-arrow.slick-prev {
+        left: 42%
+    }
+
+    ul.awards-list .slick-arrow.slick-next {
+        right: 43%
+    }
+
+    .intro.wrld-sobha h4,
+    .legacy h4,
+    .leadership-wraper .intro h4 {
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 20px
+    }
+
+    .intro.wrld-sobha h4:before,
+    .legacy h4:before,
+    .intro.wrld-sobha h4:after,
+    .legacy h4:after {
+        width: 35px;
+        height: 35px
+    }
+
+    .sobha-world ul.sobha-list li,
+    .craftsmen ul.sobha-list li {
+        margin: 50% 0 0;
+        padding: 0 40px 30px
+    }
+
+    .sobha-world ul.sobha-list li:last-child,
+    .craftsmen ul.sobha-list li:last-child {
+        margin: 50% 0 50px
+    }
+
+    .sobha-world ul.sobha-list li div.imgbox,
+    .craftsmen ul.sobha-list li div.imgbox {
+        width: 100%;
+        text-align: center;
+        margin: -50% 0 20px 0
+    }
+
+    .sobha-world ul.sobha-list li div.data,
+    .craftsmen ul.sobha-list li div.data,
+    .sobha-world ul.sobha-list li.even div.data,
+    .craftsmen ul.sobha-list li.even div.data {
+        width: 100%;
+        padding: 0
+    }
+
+    .sobha-world .title:before,
+    .craftsmen .title:before {
+        display: none
+    }
+
+    .sobha-world ul.sobha-list li ul li {
+        padding: 0 0 0 35px
+    }
+
+    .sobha-world ul.sobha-list li ul li:before {
+        top: 10px;
+        width: 15px
+    }
+
+    .page-404 div.page-content h1 {
+        font-size: 35px;
+        line-height: 40px
+    }
+
+    .page-404 div.page-content p {
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 60px
+    }
+
+    section.page-404 {
+        padding: 0 0 0
+    }
+
+    .thank-you div.inside-content h1 {
+        font-size: 35px;
+        line-height: 40px
+    }
+
+    .thank-you div.inside-content p {
+        font-size: 16px;
+        line-height: 20px
+    }
+
+    .thank-you div.inside-content {
+        padding: 0 20px;
+        max-width: 615px
+    }
+
+    .thank-you div.inside-content img {
+        width: 56px
+    }
+
+    section.thank-you {
+        background-size: 100%;
+        background-position: center center
+    }
+
+    body.open div.enquire-form {
+        padding-bottom: 40px;
+        padding-top: 0
+    }
+
+    .page-404 div.page-content ul.listing {
+        text-align: center
+    }
+
+    .page-404 div.page-content h2 {
+        font-size: 16px;
+        line-height: 20px
+    }
+
+    .contactus {
+        margin-bottom: 30px
+    }
+
+    div.connectus {
+        width: 100%;
+        padding: 0
+    }
+
+    div.enquirenow {
+        width: 100%;
+        padding: 50px 0 0
+    }
+
+    .map {
+        margin: 0 0 30px
+    }
+
+    section.register.ftr {
+        padding: 50px 20px
+    }
+
+    div.reg-box a.btn-close {
+        position: absolute;
+        bottom: auto;
+        top: 10px;
+        right: 3px;
+        font-size: 15px;
+        line-height: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .video-slider {
+        height: 98vh
+    }
+
+    section.register.mkpmnt ul.form-list li {
+        width: 50%
+    }
+
+    ul.form-list li.dnt div.select-field {
+        width: 48%
+    }
+
+    .intro,
+    .leadership-wraper .intro {
+        padding: 40px 0 30px
+    }
+
+    section.career div.wrapper {
+        padding: 0 20px
+    }
+
+    div.desc-main div.desc-inner {
+        margin: 0 0 30px
+    }
+
+    div.career-info {
+        width: 100%;
+        padding-right: 0;
+        padding-top: 20px
+    }
+
+    div.career-info:after {
+        width: 0
+    }
+
+    div.career-info h4 {
+        margin-top: 20px;
+        margin-bottom: 15px
+    }
+
+    div.career-form {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 0
+    }
+
+    ul.career-list li div.acc-title {
+        padding: 0;
+        margin: 20px 0
+    }
+
+    ul.career-list li div.acc-title h3 {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 10px
+    }
+
+    ul.career-list li div.acc-title div.tabs {
+        float: left;
+        position: relative;
+        top: auto;
+        right: auto
+    }
+
+    ul.career-list li div.acc-title span {
+        font-size: 12px;
+        line-height: 12px;
+        right: 10px
+    }
+
+    ul.career-list li div.acc-title span:first-child {
+        display: inline-block;
+        border-right: 1px solid #d4b453
+    }
+
+    section.about-sobha .legacy-list {
+        padding: 20px 0 0
+    }
+
+    section.about-sobha .legacy-list li {
+        display: block
+    }
+
+    div.bod-wrap>.heading .title {
+        margin-bottom: 30px
+    }
+
+    ul.bod-list li {
+        text-align: center;
+        margin: 0 0 30px
+    }
+
+    div.founder {
+        margin: 30px 0 50px;
+        text-align: center
+    }
+
+    div.founder div.info {
+        padding: 8% 3% 8% 35%
+    }
+
+    .leadership .title {
+        font-size: 20px
+    }
+
+    .leadership span {
+        font-size: 14px;
+        margin-bottom: 15px
+    }
+
+    .leadership p {
+        line-height: 26px;
+        margin-bottom: 25px
+    }
+
+    div.directors {
+        margin: 0 0 50px
+    }
+
+    .leadership-popup {
+        max-width: 90% !important;
+        padding: 40px 20px 20px !important
+    }
+
+    .leadership-popup .popup-inside {
+        height: 370px;
+        overflow: auto
+    }
+
+    .leadership-popup div.img-box {
+        width: 100%;
+        margin-bottom: 20px
+    }
+
+    .leadership-popup div.data {
+        width: 100%;
+        padding-left: 0
+    }
+
+    .banner.london-banner,
+    .london-banner .banner-wrap,
+    .gallery-wrap {
+        margin: 0 0 40px
+    }
+
+    .gallery-wrap {
+        padding: 0
+    }
+
+    .london-banner .banner-wrap .data {
+        width: calc(100% - 40px);
+        padding: 30px
+    }
+
+    .banner-wrap .data h1 {
+        font-size: 20px
+    }
+
+    .london-container .wrapper {
+        max-width: 100%;
+        padding: 0 20px
+    }
+
+    .gallery-wrap .heading {
+        margin: 0 0 25px
+    }
+
+    .tabs .tab-list {
+        margin: 0 0 70px
+    }
+
+    .tabs .tab-list li {
+        padding: 0 30px
+    }
+
+    .tabs .tab-list li:not(:last-child)::after {
+        height: 60%;
+        top: 5px
+    }
+
+    .tabs .tab-list li a {
+        font-size: 14px
+    }
+
+    .gallery-wrap ul.gallery-thumb {
+        padding: 0 40px
+    }
+
+    .gallery-wrap ul li div.imgbox {
+        padding: 0 6px
+    }
+
+    .gallery-wrap .slick-arrow.slick-next {
+        left: auto;
+        right: 0
+    }
+
+    .media {
+        margin-bottom: 40px
+    }
+
+    .article-list li {
+        padding: 30px 0
+    }
+
+    .article-list li h3 {
+        font-size: 18px
+    }
+
+    .media-center div.wrapper {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 20px
+    }
+
+    .intro.wrld-sobha h6.sub-title {
+        font-size: 14px
+    }
+
+    .uk-landing .uk-banner-wrap .data {
+        float: left;
+        position: static;
+        transform: translate(0);
+        padding: 40px 0 0
+    }
+
+    .uk-landing .uk-banner-wrap .data h3,
+    .uk-banner-wrap .data h4 {
+        font-size: 22px;
+        margin-bottom: 15px
+    }
+
+    .uk-landing .uk-banner-wrap .data h3 span {
+        padding: 0 120px
+    }
+
+    .uk-landing .uk-banner-wrap .data h3 span:before,
+    .uk-banner-wrap .data h3 span:after {
+        width: 110px
+    }
+
+    .uk-landing .uk-banner-wrap .data h4 {
+        margin-bottom: 30px
+    }
+
+    .uk-landing .uk-banner-wrap .data h4 span {
+        font-size: 44px;
+        line-height: 44px;
+        padding-left: 15px
+    }
+
+    .uk-landing div.title {
+        padding: 50px 0 20px
+    }
+
+    .uk-landing div.title h2 {
+        font-size: 22px;
+        padding: 0 0 25px;
+        margin-bottom: 30px;
+        line-height: 30px
+    }
+
+    .uk-landing div.title h2:before {
+        width: 80px
+    }
+
+    .uk-landing div.title p {
+        font-size: 16px
+    }
+
+    .uk-landing .houses-villas .wrapper {
+        padding: 0
+    }
+
+    .uk-landing .houses-list li {
+        margin: 0
+    }
+
+    .uk-landing .houses-list li .img-box {
+        width: 100%
+    }
+
+    .uk-landing .houses-list li .img-box img {
+        width: 100%
+    }
+
+    .uk-landing .houses-list li .data {
+        width: 100%;
+        padding: 30px 40px 50px
+    }
+
+    .uk-landing .houses-list li .data .button {
+        position: static;
+        margin: 25px 0 0
+    }
+
+    .uk-landing .houses-list li .data h4 {
+        margin: 0
+    }
+
+    .uk-landing .prize-list {
+        padding: 22px 0;
+        border-bottom: 1px solid #565150
+    }
+
+    .uk-landing .global-studio div.title h2 {
+        font-size: 24px;
+        letter-spacing: 5px;
+        text-transform: uppercase
+    }
+
+    .uk-landing .benifit .invest-list.invest-list1 {
+        margin-top: -80px
+    }
+
+    .uk-landing .global-studio div.title span {
+        font-size: 15px;
+        letter-spacing: 4px
+    }
+
+    .uk-landing .invest-list li p {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 300
+    }
+
+    .uk-landing .invest-list .icon-box {
+        margin: 0 0 10px
+    }
+
+    .uk-landing .slick-arrow {
+        border: 0;
+        height: 60px
+    }
+
+    .uk-landing .slick-arrow.slick-prev {
+        left: 0
+    }
+
+    .uk-landing .slick-arrow.slick-next {
+        right: 0
+    }
+
+    .uk-landing .slick-arrow.slick-next:before,
+    .uk-landing .slick-arrow.slick-prev:before {
+        font-size: 60px;
+        line-height: 60px;
+        color: #fee184
+    }
+
+    .uk-landing .form-wrap.bookvisit-footer .button.absolute {
+        width: 100%
+    }
+
+    .borker-list table {
+        border-bottom: 1px solid #d4b453
+    }
+
+    .borker-list thead {
+        display: none
+    }
+
+    .borker-list tbody,
+    .borker-list tr,
+    .borker-list td {
+        position: relative;
+        display: block;
+        width: 100%
+    }
+
+    .borker-list td {
+        display: flex;
+        border-top: 0;
+        border-bottom: 0;
+        padding: 15px
+    }
+
+    .borker-list tr {
+        padding: 0 0 0 50px;
+        border-top: 1px solid #d4b453
+    }
+
+    .borker-list tr td:nth-child(1) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50px;
+        height: 100%;
+        padding: 5px;
+        align-items: center;
+        border-right: 0;
+        justify-content: center
+    }
+
+    .borker-list td:before {
+        display: block
+    }
+
+    .borker-list td:nth-child(1)::before {
+        display: none
+    }
+
+    .tower-wrap {
+        flex-flow: row wrap
+    }
+
+    .video-wrap-box,
+    .tower-wrap .form-wrap {
+        width: 100%
+    }
+
+    .video-wrap-box {
+        margin: 0
+    }
+
+    .tower-wrap .form-wrap {
+        border: 0
+    }
+
+    .cta-wrap {
+        margin: 10px 0 20px
+    }
+
+    .cta-wrap .button {
+        margin: 0
+    }
+}
+
+@media screen and (max-width:767px) {
+    div.header.fixed a.logo img.after {
+        margin-top: -25px
+    }
+
+    .title,
+    ul.gird-list li div.data .heading .title {
+        font-size: 28px;
+        margin-bottom: 10px
+    }
+
+    .heading span {
+        font-size: 20px
+    }
+
+    div.content h3 {
+        font-size: 18px;
+        line-height: 24px
+    }
+
+    .getinspired {
+        padding: 10px 0 30px
+    }
+
+    ul.footer-list {
+        padding: 0 0 20px
+    }
+
+    ul.footer-list li {
+        display: inline-block;
+        width: auto;
+        margin: 0 5px;
+        padding: 0 5px
+    }
+
+    ul.footer-list li:after {
+        top: 0;
+        right: -5px
+    }
+
+    ul.footer-list li a {
+        font-size: 12px
+    }
+
+    section.register {
+        padding: 90px 30px;
+        margin-bottom: 0
+    }
+
+    section.register.ftr,
+    section.register.mkpmnt {
+        padding: 30px 20px 0;
+        margin-bottom: 0
+    }
+
+    div.reg-box .title:before {
+        display: block
+    }
+
+    div.reg-box {
+        padding: 0;
+        border: 0
+    }
+
+    div.txt-bg {
+        margin-top: 0
+    }
+
+    section.register ul.form-list {
+        padding: 0
+    }
+
+    section.register.mkpmnt .form-list .options {
+        height: 80px
+    }
+
+    ul.form-list li,
+    ul.form-list li.col-4,
+    section.register.mkpmnt ul.form-list li {
+        width: 100%;
+        padding: 0;
+        height: 80px
+    }
+
+    ul.form-list li,
+    ul.form-list li.dtn {
+        margin-bottom: 15px
+    }
+
+    .form-list .options li,
+    section.register.mkpmnt .form-list .options li {
+        padding: 5px 15px;
+        margin-bottom: 0
+    }
+
+    .form-list .options li {
+        padding: 5px 15px !important
+    }
+
+    ul.form-list li input.text {
+        font-size: 15px
+    }
+
+    .control-label {
+        font-size: 15px
+    }
+
+    ul.form-list li.fld-mobile label {
+        padding-left: 75px
+    }
+
+    section.register.mkpmnt ul.form-list li.fld-mobile label,
+    ul.form-list li.amt-aed label {
+        padding-left: 60px
+    }
+
+    ul.form-list li.fld-mobile .country-code,
+    ul.form-list li.amt-aed .currency {
+        left: 20px;
+        bottom: 3px;
+        font-size: 15px
+    }
+
+    ul.form-list li.fld-mobile input.text,
+    section.register.mkpmnt ul.form-list li.fld-mobile input.text,
+    ul.form-list li.amt-aed input.text {
+        padding: 10px 20px 10px 60px
+    }
+
+    ul.form-list li.full.center {
+        text-align: left
+    }
+
+    ul.form-list li p.e.isAgree {
+        text-align: left
+    }
+
+    .button.absolute {
+        position: relative;
+        margin: 30px auto;
+        left: auto;
+        bottom: auto;
+        display: block;
+        float: none;
+        max-width: 400px;
+        width: 100%
+    }
+
+    a.toggle {
+        margin-top: 8px
+    }
+
+    .intro p {
+        font-size: 18px;
+        line-height: 26px
+    }
+
+    section.page-404 {
+        margin-bottom: 30px
+    }
+
+    .page-404 div.page-content {
+        padding: 40px 20px
+    }
+
+    .page-404 div.page-content h2 {
+        margin-bottom: 60px
+    }
+
+    .page-404 div.page-content ul.listing li {
+        margin: 0 0 15px
+    }
+
+    .menu-wrap,
+    .ru .menu-wrap {
+        padding: 0;
+        /*width: 90%;*/
+    }
+
+    .menu-list li a {
+        font-size: 14px !important;
+        padding: 0 20px;
+    }
+
+    ul.mega-list li.main-menu h2 {
+        font-size: 14px
+    }
+
+    div.follow-us h2 {
+        font-size: 12px
+    }
+
+    ul.follow-us-list li {
+        margin-left: 20px
+    }
+
+    ul.follow-us-list li a {
+        font-size: 18px
+    }
+
+    div.connectus ul li div.data {
+        width: 100%
+    }
+
+    .contactus .button.absolute,
+    .ae .contactus .button.absolute {
+        left: 50%;
+        transform: translatex(-50%);
+        margin-left: 0;
+        display: inline-block
+    }
+
+    section.story,
+    section.overview {
+        text-align: center;
+        background-image: url(../images/bis-s-mob.png);
+        background-size: contain
+    }
+
+    section.overview h2 {
+        text-align: left
+    }
+
+    section.overview h3 {
+        max-width: 100%;
+        text-align: left;
+        margin-bottom: 20px
+    }
+
+    section.overview h4 {
+        font-size: 12px;
+        width: auto;
+        margin: 0 0 10px;
+        padding: 0 7px 0 5px
+    }
+
+    section.overview h4:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 90%;
+        width: 0;
+        background: #d4b453
+    }
+
+    section.overview h4:nth-child(3):after {
+        width: 0
+    }
+
+    section.overview h5 {
+        text-align: left;
+        font-size: 16px
+    }
+
+    section.overview h6 {
+        text-align: left;
+        margin-top: 10px
+    }
+
+    .content-box div.cell p {
+        text-align: left
+    }
+
+    ul.form-list li .lbl {
+        text-align: left
+    }
+
+    .vid-close {
+        width: 90px;
+        height: 36px
+    }
+
+    .form-list .options {
+        height: auto;
+        background: #101010
+    }
+
+    .leadership p {
+        line-height: 20px;
+        margin-bottom: 15px
+    }
+
+    div.founder {
+        margin: 0 0 30px
+    }
+
+    div.founder div.img-box {
+        float: none;
+        display: inline-block;
+        width: 55%;
+        position: relative
+    }
+
+    div.founder div.info {
+        width: 100%;
+        padding: 20px 15px 0 30px
+    }
+
+    div.bod-wrap .heading {
+        padding-left: 40px
+    }
+
+    ul.bod-list li {
+        width: 100%;
+        padding: 0 20px
+    }
+
+    div.bod-wrap {
+        padding: 30px 0 0
+    }
+
+    .media-center .tab-items {
+        padding: 40px 0 25px
+    }
+
+    .media-center ul.tab-list li a {
+        padding: 12px 22px
+    }
+
+    .media-center .tab-items .tooltip p {
+        top: 20px
+    }
+
+    .media-center .tab-items .img-box {
+        width: 60px
+    }
+
+    .media-center .tab-items .img-box img {
+        width: 38px
+    }
+
+    .media-center .tab-items .data h3 {
+        font-size: 16px
+    }
+
+    .media-center .media-info p {
+        font-size: 13px;
+        line-height: 13px
+    }
+
+    div.page .privacy-cta {
+        width: 100%;
+        float: left;
+        text-align: left;
+        padding-top: 0;
+        margin-bottom: 15px
+    }
+
+    div.page .privacy-cta a {
+        margin-left: 0;
+        margin-right: 12px
+    }
+
+    div.header.uk-landing-page .menu-wrap {
+        padding: 20px 20px 0
+    }
+
+    div.header.uk-landing-page .menu-list>li {
+        padding: 20px 0
+    }
+
+    .borker-list {
+        margin: 20px 0 0
+    }
+
+    .borker-list tr {
+        padding: 0 0 0 30px
+    }
+
+    .borker-list tr td:nth-child(1) {
+        width: 30px
+    }
+
+    .borker-list td:before {
+        min-width: 100px
+    }
+
+    .btn-pagination {
+        justify-content: center;
+        margin: 40px 0 0
+    }
+
+    .btn-pagination a.button {
+        font-size: 11px;
+        min-width: 50%;
+        height: 50px;
+        line-height: 50px;
+        margin: 0;
+        padding: 0 8px
+    }
+
+    .header.s-tower {
+        height: 50px
+    }
+
+    .container.tower-lp {
+        margin: 50px 0 0
+    }
+
+    div.header.s-tower.fixed {
+        height: 50px;
+        background: #000
+    }
+
+    .header.s-tower a.logo {
+        left: 70px;
+        width: 100px;
+        height: 50px
+    }
+
+    .tower-data .data h1 {
+        font-size: 28px;
+        line-height: 32px
+    }
+
+    .tower-wrap div.form-wrap ul.form-list {
+        text-align: center
+    }
+
+    .tower-wrap div.form-wrap ul.form-list li {
+        width: 90%;
+        height: auto;
+        margin: 0 auto 20px;
+        display: inline-block;
+        text-align: center
+    }
+
+    .container.tower-lp .form-wrap.s-tower-enq-form {
+        max-width: 90%;
+        top: 50%
+    }
+
+    .video-main {
+        height: 100%
+    }
+
+    .cta-wrap {
+        margin: 35px 0 20px
+    }
+}
+
+@media screen and (max-width:600px) {
+    div.header div.select-field {
+        width: 82px
+    }
+
+    div.header a.callTo,
+    div.header a.enquire-now,
+    div.header a.webinar-scroll {
+        max-width: 100px;
+        font-size: 11px;
+        right: 10px
+    }
+
+    .title,
+    ul.gird-list li div.data .heading .title,
+    div.reg-box .title,
+    .sobha-world ul.sobha-list li div.data h2,
+    .craftsmen ul.sobha-list li div.data h2,
+    section.overview h2,
+    div.page h1,
+    .why-sobha ul.why-sobha-list li div.data h2 {
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 10px
+    }
+
+    ul.bod-list li div.data h2 {
+        font-size: 18px
+    }
+
+    .ae section.overview h2 {
+        text-align: right
+    }
+
+    .heading span,
+    section.overview h3,
+    .leadership span,
+    ul.bod-list li div.data span {
+        font-size: 12px;
+        max-width: 100%
+    }
+
+    .story div.cell .heading {
+        margin-bottom: 15px
+    }
+
+    div.page div.wrapper {
+        padding: 0 20px
+    }
+
+    div.wrapper,
+    .awards .awards-slider {
+        padding: 0 40px
+    }
+
+    div.directors .wrapper,
+    div.founder .wrapper {
+        padding: 0 20px
+    }
+
+    ul.gird-list li div.data,
+    .legacy-years .legacy-list li div.data,
+    .legacy-years .legacy-list li.odd div.data {
+        padding: 40px
+    }
+
+    ul.thumbnails {
+        padding: 0 0 60px 40px;
+        margin-top: 20px
+    }
+
+    .story-cntnt {
+        padding: 0
+    }
+
+    .story div.cell p,
+    ul.gird-list li div.data p,
+    ul.gird-list li div.data p,
+    ul.gird-list li div.data blockquote p,
+    .legacy-years .legacy-list li div.data p,
+    .legacy div.data p,
+    .editor-data p,
+    div.page a,
+    .editor-data li {
+        font-size: 14px;
+        line-height: 20px
+    }
+
+    .scrll-dn span {
+        bottom: 60px
+    }
+
+    .banner .header-arrow {
+        bottom: 20px
+    }
+
+    .slick-arrow.slick-next {
+        right: 20px
+    }
+
+    .slick-arrow.slick-prev {
+        left: 20px
+    }
+
+    ul.thumbnails .slick-arrow.slick-next {
+        left: 57%
+    }
+
+    ul.thumbnails .slick-arrow.slick-prev {
+        left: 43%
+    }
+
+    div.footer div.wrapper {
+        padding: 0
+    }
+
+    ul.footer-list {
+        padding: 0 0 10px
+    }
+
+    ul.footer-list li {
+        margin-bottom: 10px
+    }
+
+    div.footer-wrap p {
+        font-size: 10px
+    }
+
+    div.footer-wrap {
+        padding: 30px 0 20px
+    }
+
+    div.left,
+    .ae div.amenities-wrap div.left {
+        padding: 30px 40px 12%
+    }
+
+    div.left div.data {
+        padding: 0 0 40px
+    }
+
+    .amenities .heading {
+        max-width: 100%;
+        min-height: 1px
+    }
+
+    div.amenities-wrap .slick-arrow {
+        width: 35px;
+        height: 35px
+    }
+
+    div.amenities-wrap .slick-arrow.slick-prev:before,
+    div.amenities-wrap .slick-arrow.slick-next:before {
+        line-height: 30px
+    }
+
+    .amenities .readmore.register {
+        bottom: -30px;
+        left: 12%
+    }
+
+    div.plan-wrap {
+        padding: 0 40px 40px
+    }
+
+    ul.plan-list li div.data {
+        padding: 15px 0 0
+    }
+
+    ul.plan-list li div.data p {
+        font-size: 14px;
+        line-height: 20px
+    }
+
+    ul.video-list li div.data {
+        max-width: 260px
+    }
+
+    ul.video-list li div.data h3 {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    ul.video-list li div.data a {
+        width: 50px
+    }
+
+    div.cta .button {
+        font-size: 12px;
+        padding: 20px 20px 20px 50px;
+        background-size: 18px;
+        background-position: 16px 18px
+    }
+
+    section.gallery ul.gallery-list li div.data-box {
+        padding: 0 40px
+    }
+
+    ul.gallery-list .slick-arrow.slick-prev {
+        left: 40px
+    }
+
+    ul.gallery-list .slick-arrow.slick-next {
+        left: 85px
+    }
+
+    section.community ul.community-list li div.img-box img {
+        width: 55px
+    }
+
+    section.community ul.community-list li div.data {
+        font-size: 12px
+    }
+
+    section.view-360 div.content h4 {
+        font-size: 18px;
+        line-height: 26px
+    }
+
+    a.play-button {
+        margin-top: 20px
+    }
+
+    div.location-wrap ul li {
+        min-height: 130px
+    }
+
+    div.location-wrap ul li img {
+        width: 50px
+    }
+
+    div.location-wrap ul li h4 {
+        font-size: 14px
+    }
+
+    div.location-wrap ul li p {
+        font-size: 11px
+    }
+
+    .intro,
+    .intro.wrld-sobha,
+    .intro.wrld-sobha.media-intro {
+        padding: 40px 0 30px
+    }
+
+    .intro p {
+        font-size: 14px;
+        line-height: 24px
+    }
+
+    .legacy-years .legacy-list li {
+        margin: 0
+    }
+
+    .legacy-years .legacy-list li div.data h2,
+    .legacy div.data h2 {
+        font-size: 40px;
+        color: #444;
+        margin-left: -10px;
+        margin-bottom: 5px
+    }
+
+    .our-projects ul.project-list-year li div.year h2,
+    .awards ul.awards-list li div.data h2 {
+        color: #444
+    }
+
+    .our-projects .heading {
+        left: 40px
+    }
+
+    .our-projects ul.project-list-year {
+        left: -75px;
+        bottom: 330px
+    }
+
+    .our-projects ul.project-list {
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 50px
+    }
+
+    ul.project-list .slick-arrow.slick-prev {
+        left: 39%
+    }
+
+    ul.project-list .slick-arrow.slick-next {
+        left: 52%
+    }
+
+    .awards {
+        padding-bottom: 50px
+    }
+
+    .awards ul.awards-list {
+        padding: 50px 0 55px 0
+    }
+
+    ul.awards-list .slick-arrow.slick-prev {
+        left: 34%
+    }
+
+    ul.awards-list .slick-arrow.slick-next {
+        right: 36%
+    }
+
+    .sobha-world div.wrapper,
+    .craftsmen div.wrapper {
+        padding: 0 20px
+    }
+
+    .sobha-world ul.sobha-list li,
+    .craftsmen ul.sobha-list li {
+        padding: 0 20px 30px
+    }
+
+    .video-360 {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        float: left;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0
+    }
+
+    .intro.wrld-sobha h4 br,
+    .legacy h4 br {
+        display: none
+    }
+
+    .editor-data ul {
+        padding: 0 0 0 30px
+    }
+
+    .ae .editor-data ul {
+        padding: 0 30px 0 0
+    }
+
+    div.page h4 {
+        font-size: 16px;
+        margin: 0 0 15px
+    }
+
+    .video-slider {
+        height: 75vh
+    }
+
+    .wbf-header .wbf-mainheader {
+        margin-bottom: 10px !important
+    }
+
+    .wbf-form {
+        padding: 0 10px !important
+    }
+
+    .wbf-form .intl-tel-input,
+    .intl-tel-input.pretty .flag-dropdown .country-list {
+        width: 265px !important
+    }
+
+    section.about-sobha li div.sub-data span {
+        font-size: 14px
+    }
+
+    .banner.london-banner,
+    .london-banner .banner-wrap,
+    .gallery-wrap {
+        margin: 0 0 30px
+    }
+
+    .london-banner .banner-wrap .data {
+        width: calc(100% - 30px);
+        padding: 20px
+    }
+
+    .banner-wrap .data h1 {
+        font-size: 18px
+    }
+
+    .london-container .wrapper {
+        max-width: 100%;
+        padding: 0 15px
+    }
+
+    .gallery-wrap .heading {
+        margin: 0 0 15px
+    }
+
+    .tabs .tab-list {
+        margin: 0 0 25px
+    }
+
+    .tabs .tab-list li {
+        padding: 0 10px
+    }
+
+    .tabs .tab-list li a {
+        font-size: 12px;
+        padding: 6px 0
+    }
+
+    .gallery-wrap ul {
+        margin: 0 0 20px
+    }
+
+    .gallery-wrap ul.gallery-thumb {
+        padding: 0 40px
+    }
+
+    .gallery-wrap ul li div.imgbox {
+        padding: 0 4px
+    }
+
+    .gallery-wrap .gallery-banner iframe {
+        height: auto
+    }
+
+    .gallery-wrap .slick-arrow {
+        width: 30px;
+        height: 30px;
+        margin-top: -15px
+    }
+
+    .gallery-wrap .slick-arrow:before {
+        font-size: 20px;
+        line-height: 24px
+    }
+
+    .article-list li {
+        padding: 20px 0
+    }
+
+    .article-list li h3 {
+        font-size: 16px
+    }
+
+    div.career-form ul.form-list li.half {
+        width: 100%
+    }
+
+    div.career-form ul.form-list li.half.gender .options {
+        height: 74px
+    }
+
+    div.ftr-menus div.col {
+        width: 50%;
+        margin-bottom: 20px
+    }
+
+    div.ftr-menus div.col h4 {
+        font-size: 14px;
+        line-height: 20px
+    }
+
+    div.ftr-menus ul a {
+        font-size: 12px;
+        line-height: 18px
+    }
+
+    .media-center .tab-items {
+        padding: 25px 0 15px
+    }
+
+    .media-center .media-info {
+        margin: 15px 0 10px
+    }
+
+    .media-center .tab-items .tooltip p {
+        top: 10px
+    }
+
+    .media-center ul.tab-list li a {
+        font-size: 12px;
+        padding: 12px
+    }
+
+    .media-center .form-list {
+        margin-bottom: 20px
+    }
+
+    .media-center .form-group .select-field .styledSelect {
+        font-size: 14px
+    }
+
+    div.header.uk-landing-page .menu-list>li {
+        padding: 15px 0
+    }
+
+    div.header.uk-landing-page .menu-list li a {
+        font-size: 14px;
+        line-height: 20px
+    }
+
+    .uk-landing .uk-banner-wrap .data h3,
+    .uk-banner-wrap .data h4 {
+        font-size: 16px;
+        margin-bottom: 12px
+    }
+
+    .uk-landing .uk-banner-wrap .data h4 span {
+        font-size: 36px;
+        line-height: 36px
+    }
+
+    .uk-landing div.title p {
+        font-size: 13px
+    }
+
+    .uk-landing .button {
+        font-size: 13px;
+        padding: 0 15px;
+        height: 40px;
+        line-height: 40px
+    }
+
+    .uk-landing .houses-list li .data h4 {
+        font-size: 16px
+    }
+
+    .uk-landing .global-studio div.title span {
+        font-size: 14px;
+        letter-spacing: 3px
+    }
+
+    .uk-landing .slick-arrow.slick-next:before,
+    .uk-landing .slick-arrow.slick-prev:before {
+        font-size: 30px
+    }
+
+    .uk-landing .slick-arrow.slick-next,
+    .uk-landing .slick-arrow.slick-prev {
+        width: 10px
+    }
+
+    div.reg-box .title {
+        font-size: 18px !important
+    }
+
+    div.header.uk-landing-page .logo {
+        left: 50px
+    }
+
+    .uk-landing .invest-list li p {
+        font-size: 14px;
+        line-height: 20px
+    }
+
+    .uk-landing div.title {
+        padding: 20px 0 10px
+    }
+
+    .uk-landing .houses-list li .data {
+        padding: 20px 30px 35px
+    }
+
+    .uk-landing .invest-in-dubai div.title p {
+        font-size: 12px;
+        line-height: 22px
+    }
+
+    .uk-landing .uk-banner-wrap .data h3 span:before,
+    .uk-banner-wrap .data h3 span:after {
+        width: 80px
+    }
+
+    .uk-landing .uk-banner-wrap .data h3 span {
+        padding: 0 90px
+    }
+
+    .uk-landing div.title h2 {
+        font-size: 16px;
+        padding: 0 0 20px;
+        margin-bottom: 25px;
+        line-height: 24px
+    }
+
+    .uk-landing div.title h2:before {
+        width: 60px
+    }
+
+    .uk-landing .global-studio div.title p {
+        margin-bottom: 25px
+    }
+
+    .uk-landing .invest-in-dubai div.title {
+        padding-bottom: 90px
+    }
+
+    .uk-landing .invest-in-dubai div.title.hartland {
+        padding-bottom: 30px
+    }
+
+    .uk-landing .location-content {
+        margin: 20px 0 50px
+    }
+
+    .uk-landing .global-studio div.title h2 {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 3px
+    }
+
+    .uk-landing .global-studio div.title h2:before,
+    .uk-landing .global-studio div.title h2:after {
+        width: 50px
+    }
+
+    .uk-landing .global-studio div.title h2:before {
+        left: 10px
+    }
+
+    .uk-landing .global-studio div.title h2:after {
+        right: 10px
+    }
+
+    .uk-landing .invest-list .icon-box img {
+        width: 70px
+    }
+
+    .form-wrap.bookvisit-footer .button.absolute {
+        width: 100% !important
+    }
+
+    .uk-landing .prize-list li:before {
+        top: 11px;
+        transform: none
+    }
+
+    .coming-soon-desk-only {
+        display: none !important
+    }
+
+    .coming-soon-mob-only {
+        display: block !important
+    }
+}
+
+@media screen and (max-width:479px) {
+    div.header div.select-field {
+        left: 50px;
+        width: 70px
+    }
+
+    div.header div.select-field:before {
+        font-size: 14px;
+        line-height: 14px
+    }
+
+    .menu-list li.left,
+    .menu-list li.right,
+    .menu-list>li {
+        padding: 20px 0
+    }
+
+    .menu-list li>.dd-arrow,
+    .menu-list li.left>.dd-arrow,
+    .menu-list li.wos>.dd-arrow {
+        top: 17px
+    }
+
+    div.follow-us {
+        padding: 30px 0
+    }
+
+    .page-404 div.page-content p {
+        font-size: 14px
+    }
+
+    .thank-you div.inside-content {
+        max-width: 100%
+    }
+
+    .thank-you div.inside-content p {
+        font-size: 14px
+    }
+
+    .page-404 div.page-content a.button.backtohome {
+        padding: 0 30px
+    }
+
+    .page-404 div.page-content h2 {
+        font-size: 14px;
+        line-height: 20px
+    }
+
+    .page-404 div.page-content h1 {
+        font-size: 20px;
+        line-height: 30px
+    }
+
+    section.page-404 div.wrapper {
+        padding: 0
+    }
+
+    .page-404 div.page-content p {
+        padding-bottom: 20px
+    }
+
+    a.toggle {
+        font-size: 15px;
+        line-height: 24px;
+        padding-left: 20px
+    }
+
+    ul.form-list li label.switch {
+        width: 50px;
+        height: 24px;
+        margin-left: 6px
+    }
+
+    .slider:before {
+        width: 20px;
+        height: 20px
+    }
+
+    div.ftr-menus div.col {
+        width: 100%;
+        padding: 0
+    }
+
+    ul.career-list li h3 {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 90px 0 0;
+        margin: 10px 0
+    }
+
+    ul.career-list li h3 span {
+        font-size: 10px;
+        line-height: 14px;
+        right: 0
+    }
+
+    div.career-info p {
+        line-height: 24px
+    }
+
+    div.career-info ul li:before {
+        top: 8px
+    }
+
+    div.career-form .btn {
+        min-width: 140px;
+        height: 45px;
+        line-height: 45px;
+        padding: 0 0 0 30px;
+        letter-spacing: 1px;
+        background-position: 7px 11px;
+        background-size: 17px
+    }
+
+    div.career-form div.file-box .upload-text {
+        font-size: 8px;
+        margin-top: 7px
+    }
+
+    div.send-cta .button {
+        min-width: 130px;
+        height: 45px;
+        line-height: 45px
+    }
+
+    div.directors {
+        margin: 0
+    }
+
+    div.breadcrumbs ul li:after {
+        font-size: 12px
+    }
+
+    .media-center div.wrapper {
+        padding: 0 15px
+    }
+
+    .media-center .form-group .select-field {
+        min-width: 120px;
+        margin: 0 15px 0 0
+    }
+
+    .media-center ul.tab-list {
+        margin: 0
+    }
+
+    .media-center ul.tab-list li a {
+        font-size: 10px;
+        padding: 10px 5px;
+        letter-spacing: .5px;
+        margin: 0 -1px
+    }
+
+    div.page .privacy-cta a {
+        width: 100%;
+        float: left;
+        display: inline-block;
+        margin-bottom: 6px
+    }
+}
+
+@media screen and (max-width:360px) {
+
+    .ae a.logo,
+    .cn a.logo {
+        left: 56%
+    }
+
+    section.view-360 div.content h4 {
+        font-size: 20px;
+        line-height: 24px
+    }
+
+    a.play-button img {
+        width: 50px
+    }
+
+    .thank-you div.inside-content {
+        padding: 0 15px
+    }
+}
+
+@media screen and (max-width:340px) {
+    .media-center ul.tab-list li {
+        margin-bottom: 5px;
+        width: 100%
+    }
+
+    .media-center ul.tab-list li a {
+        width: 100%;
+        font-size: 12px
+    }
+
+    .media-center .form-group .select-field {
+        margin: 0 5px 0 0
+    }
+}
+
+@media only screen and (max-width:1500px) {
+    .form-wrap h2 {
+        font-size: 18px;
+        line-height: 24px
+    }
+
+    div.header.inner_header a.callTo {
+        font-size: 12px;
+        right: 120px
+    }
+}
+
+@media only screen and (max-width:1400px) {
+    div.sections-wrap div.privacy-wrap {
+        max-width: 960px
+    }
+
+    div.header a.callTo {
+        right: 28px
+    }
+
+    .footer p {
+        font-size: 13px
+    }
+
+    .container .form-wrap {
+        top: 65px;
+        right: 6%
+    }
+
+    div.form-wrap ul.form-list {
+        padding: 15px 30px
+    }
+
+    div.form-wrap ul.form-list li.form-li {
+        height: 60px
+    }
+
+    div.intro.renting {
+        margin-bottom: 60px
+    }
+
+    div.apartment-wrap ul li {
+        margin: 0 0 100px
+    }
+
+    .thank-you div.content-wrap h1 {
+        font-size: 42px;
+        line-height: 50px
+    }
+
+    .thank-you div.content-wrap p {
+        font-size: 18px;
+        line-height: 24px
+    }
+
+    section.thank-you {
+        background-size: 72%
+    }
+
+    .thank-you div.content-wrap img {
+        width: 75px;
+        padding: 50px 0
+    }
+
+    .page-404 div.page-content h1 {
+        font-size: 42px;
+        line-height: 50px
+    }
+
+    .page-404 div.page-content p {
+        font-size: 18px;
+        line-height: 24px;
+        padding-bottom: 70px
+    }
+
+    .page-404 div.page-content h2 {
+        font-size: 18px;
+        line-height: 24px
+    }
+
+    div.ftr-menus div.col h4 {
+        font-size: 14px;
+        line-height: 20px
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .container .form-wrap {
+        top: 35px
+    }
+
+    .form-wrap h4 .tel-ant:after {
+        top: 13px
+    }
+
+    div.wrapper {
+        max-width: 1200px
+    }
+
+    section.thank-you {
+        background-size: 63%
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    div.wrapper {
+        padding: 0 30px
+    }
+
+    div.intro.renting {
+        margin-top: 60px
+    }
+
+    div.header .p-title {
+        left: 50px
+    }
+
+    .ae div.header .p-title {
+        right: 50px
+    }
+
+    div.callToLinks {
+        right: 410px
+    }
+
+    .ae div.callToLinks {
+        left: 410px
+    }
+
+    div.hdr-cta {
+        right: 20px
+    }
+
+    .ae div.hdr-cta {
+        left: 20px
+    }
+
+    div.breadcrumbs div.wrapper {
+        padding-left: 40px
+    }
+
+    div.ftr-menus div.col h4 {
+        font-size: 11px;
+        line-height: 16px
+    }
+
+    div.ftr-menus ul a {
+        font-size: 10px;
+        line-height: 13px
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .container .form-wrap {
+        top: 11px
+    }
+
+    ul.tab-list li a {
+        padding: 20px 60px 20px 225px
+    }
+
+    .webinar-pg {
+        padding: 60px 0 0
+    }
+
+    .webinar-pg section {
+        padding: 30px 0
+    }
+
+    ul.topic-list {
+        flex-flow: row wrap
+    }
+
+    ul.topic-list li {
+        width: 50%;
+        padding: 10px 15px
+    }
+
+    .webinar-frm div.career-form {
+        padding: 40px 15px
+    }
+
+    .webinar-frm div.form-wrap ul.form-list {
+        padding: 0
+    }
+
+    .webinar-frm div.career-form ul.form-list>li {
+        padding: 0 10px
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    .desk-only {
+        display: none !important
+    }
+
+    .mob-only {
+        display: block !important
+    }
+
+    div.wrapper {
+        padding: 0 20px
+    }
+
+    div.header .p-title {
+        left: 15px;
+        width: 230px
+    }
+
+    .ae div.header .p-title {
+        right: 15px
+    }
+
+    div.sections-wrap {
+        padding: 0 15px
+    }
+
+    div.header {
+        position: fixed;
+        padding: 0;
+        height: 60px;
+        background: transparent;
+    }
+
+    .navbar {
+        z-index: 999 !important;
+    }
+
+    div.hdr-cta {
+        top: 30px;
+        right: 0;
+        background: #000;
+        border-left: 1px solid #404040;
+        width: 40%
+    }
+
+    div.hdr-cta .button {
+        width: auto;
+        margin: 0 -2px;
+        border: 0;
+        height: 60px;
+        line-height: 60px
+    }
+
+    div.hdr-cta .button:first-child {
+        border-right: 1px solid #333
+    }
+
+    .ae div.hdr-cta {
+        left: 0;
+        border-right: 1px solid #404040
+    }
+
+    a.sobha-logo img {
+        width: 200px
+    }
+
+    div.callToLinks {
+        right: 20px
+    }
+
+    div.callToLinks a.callTo,
+    div.callToLinks a.callnow {
+        display: none !important
+    }
+
+    .sticky-btns {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 9;
+        width: 100%;
+        border: 1px solid #d1ab67
+    }
+
+    .sticky-btns a {
+        display: inline-block;
+        width: 50%;
+        height: 45px;
+        line-height: 45px;
+        background: #fff;
+        font-family: proximanovabold;
+        font-size: 14px;
+        color: #000;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 2px
+    }
+
+    .callTomob img {
+        width: 18px;
+        margin-right: 5px;
+        margin-top: -5px
+    }
+
+    a.enuire-now {
+        float: right;
+        border-left: 1px solid #d1ab67
+    }
+
+    .tab-main div.cta {
+        margin: 30px 0 0
+    }
+
+    div.intro {
+        margin: 20px 0
+    }
+
+    div.intro.hartland {
+        margin-bottom: 20px
+    }
+
+    div.intro.inside-page {
+        margin-bottom: 20px
+    }
+
+    div.intro.inside-page.fore-bhk {
+        margin: 30px 0 20px
+    }
+
+    div.intro p {
+        line-height: 22px
+    }
+
+    .form-popup.popup {
+        height: auto;
+        width: 100%;
+        max-width: 90%;
+        margin: 0 !important;
+        left: 50% !important;
+        top: 15% !important;
+        transform: translate(-50%, -50%)
+    }
+
+    .form-popup.popup div.form-wrap ul.form-list li .submit {
+        width: 100%
+    }
+
+    .form-popup .form-wrap {
+        box-shadow: none
+    }
+
+    div.form-wrap ul.form-list li .submit {
+        height: 40px;
+        line-height: 40px
+    }
+
+    .container .form-wrap {
+        float: left;
+        position: relative;
+        top: auto;
+        right: auto;
+        width: 100%
+    }
+
+    div.intro.renting {
+        margin-bottom: 0;
+        margin-top: -70px
+    }
+
+    .button {
+        height: 40px;
+        line-height: 40px
+    }
+
+    div.title h2,
+    div.title h1 {
+        font-size: 26px;
+        line-height: 30px
+    }
+
+    div.intro div.title h3 {
+        font-size: 20px
+    }
+
+    div.intro.renting div.title p {
+        font-size: 16px
+    }
+
+    div.title h2 span {
+        font-size: 22px;
+        line-height: 26px
+    }
+
+    .container.bed4 div.title h2 {
+        font-size: 26px;
+        line-height: 30px
+    }
+
+    .container.bed4 div.title h2 sup {
+        font-size: 14px
+    }
+
+    div.title h2:before {
+        left: -12px
+    }
+
+    div.title h3:before {
+        left: -12px
+    }
+
+    .ae div.title h2:before,
+    .ae div.title h3:before {
+        right: -12px
+    }
+
+    div.title h3 {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 5px 0;
+        margin: 20px 0
+    }
+
+    .six-bed-townhouse div.title p {
+        margin-bottom: 20px
+    }
+
+    div.intro.hartland div.title {
+        padding: 0
+    }
+
+    div.apartment-wrap ul li {
+        margin: 0 0 20px
+    }
+
+    div.apartment-wrap ul li:last-child {
+        margin-bottom: 20px
+    }
+
+    div.apartment-wrap ul li div.main {
+        flex-flow: column;
+        padding: 15px 15px 20px
+    }
+
+    div.apartment-wrap ul li div.img-box {
+        width: 100%;
+        margin: 0
+    }
+
+    div.apartment-wrap ul li div.data {
+        width: 100%;
+        padding: 30px 0 0 12px
+    }
+
+    div.apartment-wrap ul li div.data div.starting,
+    div.apartment-wrap.villas ul li div.data div.starting {
+        margin: 30px 0
+    }
+
+    div.starting span {
+        font-size: 12px;
+        line-height: 14px
+    }
+
+    div.starting h3 {
+        font-size: 20px;
+        line-height: 26px
+    }
+
+    div.spacious-inside div.right div.starting {
+        margin: 0 0 0
+    }
+
+    div.apartment-wrap ul li div.data ul {
+        margin: 20px 0 0
+    }
+
+    div.apartment-wrap ul li div.data ul li {
+        padding: 0 0 0 15px
+    }
+
+    div.apartment-wrap ul li div.data ul li h4 {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 0;
+        padding: 0 0 0
+    }
+
+    div.footer {
+        padding: 20px 0 60px;
+        margin: 20px 0 0
+    }
+
+    div.footer div.address p {
+        font-size: 14px;
+        order: 2
+    }
+
+    .ae div.footer div.address p {
+        width: 100%
+    }
+
+    ul.footer-list li {
+        padding: 0 15px;
+        margin-bottom: 15px
+    }
+
+    ul.footer-list li a {
+        font-size: 12px
+    }
+
+    ul.social-list {
+        padding: 5px 0 20px
+    }
+
+    div.spacious-inside div.left {
+        width: 100%
+    }
+
+    div.spacious-inside div.right {
+        width: 100%;
+        padding: 30px 0 0 30px
+    }
+
+    .ae div.spacious-inside div.right {
+        padding: 30px 30px 0 0
+    }
+
+    div.spacious-inside,
+    .ae div.spacious-inside {
+        flex-flow: column;
+        padding: 30px
+    }
+
+    div.tab-content .left {
+        padding: 0 0 0 50px
+    }
+
+    div.tab-content .right {
+        padding: 0 0 0 50px
+    }
+
+    div.img-popup {
+        max-width: 100%
+    }
+
+    div.mxdialogForms.form-popup {
+        width: 450px
+    }
+
+    div.mxdialogForms.form-popup .form-wrap h2 {
+        padding: 15px 0
+    }
+
+    div.mxdialogForms.form-popup ul.form-list ::-webkit-input-placeholder {
+        color: #fff !important;
+        font-size: 16px;
+        opacity: 1
+    }
+
+    div.mxdialogForms.form-popup ul.form-list ::-moz-placeholder {
+        color: #fff !important;
+        font-size: 16px
+    }
+
+    div.mxdialogForms.form-popup ul.form-list :-ms-input-placeholder {
+        color: #fff !important;
+        font-size: 16px
+    }
+
+    div.mxdialogForms.form-popup ul.form-list :-moz-placeholder {
+        color: #fff !important;
+        font-size: 16px
+    }
+
+    body.open div.enquire-form {
+        padding-bottom: 40px;
+        padding-top: 0
+    }
+
+    section.register {
+        display: block;
+        padding: 75px 20px 0;
+        margin-bottom: 0
+    }
+
+    div.reg-box {
+        padding: 0;
+        border: 0
+    }
+
+    div.txt-bg {
+        margin-top: 0
+    }
+
+    section.register ul.form-list {
+        padding: 0
+    }
+
+    .button.absolute {
+        position: relative;
+        margin: 30px auto;
+        left: auto;
+        bottom: auto;
+        display: block;
+        float: none;
+        max-width: 100%;
+        width: 100%
+    }
+
+    ul.form-list li,
+    ul.form-list li.col-4,
+    section.register.mkpmnt ul.form-list li {
+        width: 100%;
+        padding: 0;
+        height: 80px
+    }
+
+    ul.form-list li,
+    ul.form-list li.dtn {
+        margin-bottom: 15px
+    }
+
+    .form-wrap.bookvisit-footer ul.form-list li.col-4 {
+        width: 100%
+    }
+
+    .form-wrap.bookvisit-footer ul.form-list li {
+        width: 100%
+    }
+
+    .control-label {
+        padding-left: 23px
+    }
+
+    .form-wrap.bookvisit-footer ul.form-list li div.select-field select {
+        padding: 0
+    }
+
+    div.reg-box .title {
+        font-size: 20px
+    }
+
+    .form-wrap.bookvisit-footer .button.absolute {
+        width: 70%;
+        display: inline-block;
+        position: relative;
+        bottom: auto;
+        left: auto;
+        margin: 30px 0 0;
+        padding: 15px 20px;
+        font-size: 14px
+    }
+
+    .form-wrap.bookvisit-footer {
+        padding: 0;
+        height: auto;
+        overflow: auto
+    }
+
+    .modal-inner .form-wrap.bookvisit-footer {
+        height: calc(100vh - 210px)
+    }
+
+    ul.form-list ::-webkit-input-placeholder {
+        color: #000 !important;
+        font-size: 16px;
+        opacity: 1
+    }
+
+    ul.form-list ::-moz-placeholder {
+        color: #000 !important;
+        font-size: 16px
+    }
+
+    ul.form-list :-ms-input-placeholder {
+        color: #000 !important;
+        font-size: 16px
+    }
+
+    ul.form-list :-moz-placeholder {
+        color: #000 !important;
+        font-size: 16px
+    }
+
+    .form-wrap#contact-home {
+        display: none
+    }
+
+    .modal-wrap.enquiry-mod .form-wrap h2 {
+        display: none
+    }
+
+    div.form-wrap ul.form-list li .form-field label {
+        display: inline-block
+    }
+
+    .enquiry-mod .form-wrap.bookvisit-footer ul.form-list li input.text.submit {
+        display: inline-block;
+        width: 70%;
+        float: none;
+        border: 1px solid #d1ab67;
+        padding: 0;
+        margin: 20px 0;
+        color: #000;
+        font-size: 14px;
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+        font-family: proximanovasemibold;
+        text-transform: uppercase;
+        max-width: 100%;
+        letter-spacing: 2px;
+        border-radius: 2px;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        transition: all ease-in-out .2s;
+        -moz-transition: all ease-in-out .2s;
+        -webkit-transition: all ease-in-out .2s;
+        background: #d1ab67
+    }
+
+    .enquiry-mod .form-wrap.bookvisit-footer ul.form-list li #countryCode {
+        bottom: 0
+    }
+
+    .footer-wrap-new {
+        padding: 40px 0 30px
+    }
+
+    div.ftr-menus {
+        padding-left: 10px;
+        margin-bottom: 10px
+    }
+
+    div.ftr-menus div.col {
+        width: 33.3333%;
+        margin-bottom: 10px
+    }
+
+    section.thank-you {
+        background-size: 100%;
+        background-position: center center
+    }
+
+    .thank-you div.content-wrap {
+        padding: 0 20px;
+        max-width: 615px
+    }
+
+    .thank-you div.content-wrap img {
+        width: 56px
+    }
+
+    .thank-you div.content-wrap h1 {
+        font-size: 35px;
+        line-height: 40px
+    }
+
+    .thank-you div.content-wrap p {
+        font-size: 16px;
+        line-height: 20px
+    }
+
+    section.thank-you {
+        min-height: 80vh
+    }
+
+    .page-404 div.page-content h1 {
+        font-size: 35px;
+        line-height: 40px
+    }
+
+    .page-404 div.page-content p {
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 60px
+    }
+
+    section.page-404 {
+        padding: 0 0 0
+    }
+
+    .page-404 div.page-content ul.listing {
+        text-align: center
+    }
+
+    .page-404 div.page-content h2 {
+        font-size: 16px;
+        line-height: 20px
+    }
+
+    ul.tab-list li a {
+        padding: 20px 60px
+    }
+
+    ul.tab-list li a:after {
+        left: 60px
+    }
+
+    ul.tab-list li.active a:after,
+    ul.tab-list li a:hover:after {
+        width: 140px
+    }
+
+    .form-wrap.bookvisit-footer ul.form-list li div.select-field {
+        padding: 10px 0
+    }
+
+    .form-wrap.bookvisit-footer ul.form-list li div.select-field select {
+        padding: 0 30px 0 20px
+    }
+
+    div.breadcrumbs div.wrapper {
+        padding: 0 0 0 10px
+    }
+
+    div.breadcrumbs ul li a {
+        font-size: 12px
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .contactPopUp div.form-wrap ul.form-list {
+        padding: 20px 20px 30px
+    }
+
+    .form-wrap h2 {
+        font-size: 16px;
+        padding: 0;
+        padding-bottom: 20px;
+        line-height: 30px
+    }
+
+    .modal-inner .form-wrap.bookvisit-footer {
+        height: calc(100vh - 160px)
+    }
+
+    div.form-wrap ul.form-list li.form-li {
+        height: 56px
+    }
+
+    .contactPopUp div.form-wrap ul.form-list li.form-li div.left {
+        width: 100%;
+        height: 56px
+    }
+
+    .contactPopUp div.form-wrap ul.form-list li div.right {
+        width: 100%;
+        height: 56px
+    }
+
+    .contactPopUp div.form-wrap ul.form-list li.form-li {
+        clear: both;
+        width: 100%;
+        display: table
+    }
+
+    .contactPopUp {
+        width: 100% !important;
+        left: 0% !important;
+        height: 100%;
+        top: 0% !important;
+        margin: 0 !important;
+        overflow: auto
+    }
+
+    div.form-wrap ul.form-list li.form-li.date {
+        margin-bottom: 25px
+    }
+
+    div.form-wrap ul.form-list li.form-li.date div.left {
+        margin-bottom: 22px
+    }
+
+    div.apartment-wrap ul li div.data div.title {
+        width: 100%
+    }
+
+    div.title h2,
+    div.title h1 {
+        font-size: 20px;
+        line-height: 22px
+    }
+
+    div.title h2 span {
+        font-size: 16px;
+        line-height: 20px
+    }
+
+    .container.bed4 div.title h2 {
+        font-size: 20px;
+        line-height: 26px
+    }
+
+    div.intro.renting div.title {
+        padding: 20px
+    }
+
+    div.apartment-wrap ul li div.main {
+        padding: 15px
+    }
+
+    div.intro div.title h3 {
+        font-size: 18px
+    }
+
+    div.intro.renting div.title p {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    div.intro.renting div.title p span {
+        font-size: 16px
+    }
+
+    div.title p {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    div.tab-content .left {
+        width: 100%
+    }
+
+    div.tab-content .right {
+        width: 100%
+    }
+
+    ul.content-list {
+        padding: 0 0 20px
+    }
+
+    div.plan-content,
+    div.tab-content,
+    div.video-content {
+        margin: 0 0 10px;
+        padding: 30px 0 15px
+    }
+
+    div.tab-content {
+        height: 340px;
+        overflow: auto
+    }
+
+    div.tab-content h3 {
+        font-size: 18px
+    }
+
+    ul.content-list li p {
+        margin: 0 0 10px
+    }
+
+    div.video-content div.video-box video {
+        width: 100%
+    }
+
+    div.video-content div.video-box a.play-btn img {
+        width: 40px
+    }
+
+    section.page-404 {
+        margin-bottom: 30px
+    }
+
+    .page-404 div.page-content {
+        padding: 40px 20px
+    }
+
+    .page-404 div.page-content h2 {
+        margin-bottom: 60px
+    }
+
+    .page-404 div.page-content ul.listing li {
+        margin: 0 0 15px
+    }
+
+    .ae ul.footer-list li a {
+        font-size: 16px
+    }
+
+    .footer-wrap-new {
+        padding: 30px 0 20px
+    }
+
+    ul.topic-list li {
+        width: 100%
+    }
+
+    .webinar-pg .heading .title {
+        font-size: 20px;
+        margin: 0 0 15px
+    }
+
+    .speaker ul {
+        flex-flow: row wrap;
+        margin: 0 0 20px
+    }
+
+    .speaker ul li {
+        margin: 0 0 15px
+    }
+
+    .speaker ul li h5 {
+        font-size: 14px
+    }
+
+    .webinar-venue {
+        margin: 0 0 10px
+    }
+
+    .venue-info {
+        margin: 0 2px;
+        min-width: 156px
+    }
+
+    .venue-info span {
+        margin: 5px
+    }
+
+    .venue-info p {
+        font-size: 11px
+    }
+
+    .webinar-frm .heading {
+        position: static
+    }
+
+    .webinar-frm div.career-form {
+        padding: 20px 0 0;
+        border: 0
+    }
+
+    .webinar-frm div.career-form ul.form-list {
+        display: flex;
+        flex-flow: row wrap
+    }
+
+    .webinar-frm div.career-form ul.form-list li:nth-child(1) {
+        order: 1
+    }
+
+    .webinar-frm div.career-form ul.form-list li:nth-child(2) {
+        order: 4
+    }
+
+    .webinar-frm div.career-form ul.form-list li:nth-child(3) {
+        order: 2
+    }
+
+    .webinar-frm div.career-form ul.form-list li:nth-child(4) {
+        order: 5
+    }
+
+    .webinar-frm div.career-form ul.form-list li:nth-child(5) {
+        order: 3
+    }
+
+    .webinar-frm div.career-form ul.form-list li:nth-child(6) {
+        order: 6
+    }
+
+    .webinar-frm div.career-form ul.form-list li:nth-child(7) {
+        order: 7
+    }
+
+    .webinar-frm div.career-form ul.form-list>li {
+        width: 100%;
+        height: auto
+    }
+
+    .webinar-frm div.career-form ul.form-list .col--2 {
+        flex-flow: row wrap
+    }
+
+    .webinar-frm div.career-form ul.form-list .col--2 .form-group {
+        width: 100%
+    }
+
+    .webinar-frm div.career-form ul.form-list .col--2 .form-group:last-child {
+        padding: 0
+    }
+
+    .webinar-pg section.webinar-frm {
+        padding: 0
+    }
+
+    .webinar-frm ul.form-list li input.text,
+    .webinar-frm ul.form-list li textarea {
+        font-size: 14px
+    }
+
+    .webinar-frm ul.form-list input.text::placeholder,
+    .webinar-frm ul.form-list textarea::placeholder {
+        font-size: 14px
+    }
+
+    .webinar-frm ul.form-list li p.e {
+        line-height: 14px
+    }
+
+    .webinar-frm .country-code {
+        font-size: 14px
+    }
+
+    .webinar-frm .form-list .styledSelect {
+        font-size: 14px
+    }
+
+    .webinar-frm .button.absolute {
+        margin: 15px 0 0
+    }
+
+    .sobha-hartland-info {
+        display: none
+    }
+
+    .sobha-hartland-info p {
+        padding: 0;
+        margin: 15px 0
+    }
+
+    .ui-datepicker {
+        width: 19em !important
+    }
+}
+
+@media screen and (max-width:680px) {
+
+    .quick-access,
+    .wh-widget-right {
+        display: block
+    }
+
+    .verloop-button {
+        opacity: 0 !important;
+        visibility: hidden !important;
+        transition: all ease-in-out .3s !important;
+        transform: none !important;
+        bottom: 20px !important;
+        display: none
+    }
+
+    ul.form-list li.interested p.e {
+        margin-top: 7px !important
+    }
+}
+
+@media only screen and (max-width:480px) {
+    div.header {
+        /*height: 50px*/
+        position: fixed !important;
+    }
+
+    div.header .p-title {
+        width: 165px
+    }
+
+    div.hdr-cta {
+        top: 25px
+    }
+
+    div.hdr-cta .button {
+        height: auto;
+        line-height: 50px
+    }
+
+    div.form-wrap ul.form-list .agree-field .text {
+        margin-top: 0
+    }
+
+    .form-popup.popup div.form-wrap ul.form-list li.submit-li {
+        padding-top: 0;
+        height: auto
+    }
+
+    div.form-wrap ul.form-list {
+        padding: 0
+    }
+
+    div.form-wrap ul.form-list li {
+        width: 90%;
+        float: none;
+        padding: 0;
+        margin: 0 auto
+    }
+
+    .form-popup.popup div.form-wrap ul.form-list {
+        padding: 10px 30px !important
+    }
+
+    .form-popup.popup div.form-wrap ul.form-list li {
+        width: 100%
+    }
+
+    .wbf-header .wbf-mainheader {
+        margin-bottom: 10px !important
+    }
+
+    .wbf-form {
+        padding: 0 10px !important
+    }
+
+    .wbf-form .intl-tel-input,
+    .intl-tel-input.pretty .flag-dropdown .country-list {
+        width: 265px !important
+    }
+
+    .button {
+        height: 40px;
+        line-height: 40px;
+        font-size: 10px;
+        padding: 0 15px;
+        margin: 0 5px 10px 0
+    }
+
+    .tab-main .button {
+        width: 65%;
+        margin: 0 0 10px
+    }
+
+    div.apartment-wrap ul li div.main {
+        padding: 15px
+    }
+
+    div.apartment-wrap ul li div.data div.title {
+        width: 100%
+    }
+
+    div.apartment-wrap ul li div.data div.starting,
+    div.apartment-wrap.villas ul li div.data div.starting {
+        margin: 20px 0
+    }
+
+    div.spacious-inside div.right .heading h2 {
+        font-size: 20px
+    }
+
+    div.spacious-inside div.right {
+        width: 100%;
+        padding: 15px 0 0 10px
+    }
+
+    .ae div.spacious-inside div.right {
+        padding: 15px 12px 0 0
+    }
+
+    div.spacious-inside,
+    .ae div.spacious-inside {
+        padding: 15px
+    }
+
+    div.spacious-inside div.right ul.spacious-list li {
+        min-height: 30px;
+        line-height: 30px;
+        margin: 0 8px 0 0;
+        font-size: 12px
+    }
+
+    div.spacious-inside div.right ul.spacious-list li:after {
+        right: -5px
+    }
+
+    .ae div.spacious-inside div.right ul.spacious-list li {
+        margin: 0 0 0 10px
+    }
+
+    .ae div.spacious-inside div.right ul.spacious-list li:after {
+        left: -7px
+    }
+
+    .ae div.spacious-inside div.right ul.spacious-list li span {
+        padding-right: 5px
+    }
+
+    div.spacious-inside div.right ul.spacious-list li img {
+        width: 20px
+    }
+
+    div.spacious-inside div.right .heading.title h2 {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 15px
+    }
+
+    div.tab-content .left {
+        padding: 20px 0 0 20px
+    }
+
+    div.tab-content .right {
+        padding: 0 0 0 20px
+    }
+
+    ul.content-list li p {
+        font-size: 12px
+    }
+
+    .tab-main .plan-content .button {
+        margin: 0 5px 0 0;
+        max-width: 127px;
+        font-size: 12px
+    }
+
+    ul.tab-list li a {
+        font-size: 15px;
+        padding: 20px 60px 20px 30px
+    }
+
+    ul.tab-list li a:after {
+        left: 30px
+    }
+
+    ul.tab-list li.active a:after,
+    ul.tab-list li a:hover:after {
+        width: 105px
+    }
+
+    div.wrapper {
+        padding: 0 15px
+    }
+
+    div.tab-content div.cta a.button:last-child {
+        margin: 0
+    }
+
+    div.footer.landing-footer div.address ul.footer-list li.policy:after {
+        display: none
+    }
+
+    .ae div.footer.landing-footer div.address ul.footer-list li.policy:after {
+        display: inline-block
+    }
+
+    div.intro div.title h2 br {
+        display: none
+    }
+
+    div.ftr-menus div.col {
+        width: 100%;
+        padding: 0
+    }
+
+    div.ftr-menus div.col h4 {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    div.ftr-menus ul a {
+        font-size: 12px;
+        line-height: 16px
+    }
+
+    .ae div.ftr-menus div.col h4 {
+        font-size: 16px
+    }
+
+    .thank-you div.content-wrap {
+        max-width: 100%
+    }
+
+    .page-404 div.page-content p {
+        font-size: 14px
+    }
+
+    .page-404 div.page-content a.button.backtohome {
+        padding: 0 30px
+    }
+
+    .page-404 div.page-content h2 {
+        font-size: 14px;
+        line-height: 20px
+    }
+
+    .page-404 div.page-content h1 {
+        font-size: 20px;
+        line-height: 30px
+    }
+
+    section.page-404 div.wrapper {
+        padding: 0
+    }
+
+    .page-404 div.page-content p {
+        padding-bottom: 20px
+    }
+
+    div.lessmore {
+        padding: 15px 0 !important
+    }
+
+    div.spacious-inside.new div.left:after {
+        height: 40px
+    }
+
+    div.spacious-inside.new div.left:before {
+        width: 90px;
+        height: 90px
+    }
+
+    div.img-popup {
+        max-width: 100%
+    }
+
+    div.mxdialogForms.form-popup {
+        width: 100% !important;
+        margin: 0 !important;
+        transform: translate(-50%, -50%)
+    }
+
+    div.mxdialogForms.form-popup .form-wrap#contact-home {
+        display: inline-block
+    }
+
+    div.breadcrumbs ul li {
+        padding: 0 8px
+    }
+
+    div.breadcrumbs ul li:after {
+        font-size: 10px;
+        top: 0;
+        right: -2px
+    }
+
+    div.breadcrumbs ul li a {
+        font-size: 10px
+    }
+
+    .ae div.breadcrumbs ul li:after {
+        font-size: 12px;
+        top: 0
+    }
+
+    .tower-wrap ul.form-list li input.button {
+        font-size: 16px
+    }
+
+    .tower-data {
+        padding: 20px
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .contactPopUp div.form-wrap ul.form-list {
+        padding: 10px 15px !important
+    }
+
+    .contactPopUp div.form-wrap ul.form-list li {
+        width: 100%
+    }
+
+    .contactPopUp div.form-wrap ul.form-list li .submit {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        margin-top: 10px
+    }
+}
+
+@media only screen and (max-width:340px) {
+    ul.footer-list li {
+        padding: 0 10px
+    }
+
+    div.location span,
+    ul.tab-list li a {
+        font-size: 12px
+    }
+
+    .tab-main .button {
+        font-size: 9px
+    }
+
+    div.tab-content h3 {
+        font-size: 16px
+    }
+
+    .tab-main .plan-content .button {
+        max-width: 120px
+    }
+
+    .thank-you div.content-wrap h1 {
+        font-size: 28px;
+        line-height: 35px
+    }
+
+    .thank-you div.content-wrap p {
+        font-size: 14px;
+        line-height: 20px
+    }
+
+    .thank-you div.content-wrap img {
+        padding: 115px 0 20px
+    }
+
+    div.spacious-inside.new div.left:after {
+        height: 30px
+    }
+
+    .ui-datepicker {
+        width: 17em !important
+    }
+}
